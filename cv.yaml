@@ -1,0 +1,209 @@
+name: Jorge Barata González
+birthday: November 1, 1987
+
+phone: 000 123 45 67 89
+
+mail: jorge@example.com
+
+address: 123 Fake Street -- Springfield, Undetermined state
+
+homepage: jorgebg.com
+
+social:
+  github: jorgebg
+  linkedin: jorgebaratagonzalez
+  stackoverflow: 959819
+
+
+intro: |
+  **Software engineer** with experience in **web developing**, strong abilities in designing software and integrating a broad range of **cutting-edge technologies**.
+
+description: |
+  More than five years of experience in **web technologies**, having gathered knowledge of *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and architectural systems research. Interested in a career in **software engineer and architecture**.
+  He studied **Bachelor in Computer Science** and **Software Engineer** in Spain, currently working on the final project for his dissertation.
+  He really enjoys **open source** software and do my best to contribute to projects which he is interested in like *Yii*, *Symfony*, *Redmine* and more. He also try to open source everything he does.
+
+education:
+  - place: "[Carlos III University of Madrid](http://www.uc3m.es/)"
+    location: Madrid, Spain
+    items:
+      - title: B.Sc. Computer Science & Software Engineering
+        dates: August 2007 -- present
+        details:
+          - Specialiced on Distributed Systems
+          - Bilingual (Spanish and English)
+          - Currently developing my final project for my dissertation
+          - First class honours on Network Computing (2009)
+
+experience:
+  - place: "[Customer Service Center, Carlos III University of Madrid](http://cau.uc3m.es/)"
+    location: Madrid, Spain
+    items:
+      - title: Computer Technic
+        dates: September 2008 -- June 2009
+        details:
+          - Computer support
+          - Customer service
+
+  - place: "[InDaHouseRulez](http://indahouserulez.com/)"
+    location: Madrid, Spain
+    items:
+      - title: Software Developer
+        dates: June 2009 -- April 2011
+        details:
+          -
+            - "Web Developer: Python (Django), PHP (Symfony and Yii) and MySQL"
+            - "Systems technician: FreeBSD, Debian, CentOS, Web Servers (Cherokee and Apache), Mail Server (Postfix)"
+            - Analyst programmer
+            - Multilingual, translations backend
+            - Adwords custom backend
+            - Subversion
+            - ActiveCollab
+            - Remote working
+          -
+            - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation in Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
+
+  - place: "[Vivocom EU](http://www.vivocom.eu)"
+    location: Madrid, Spain
+    items:
+      - title: Junior Software Engineer
+        dates: April 2011 -- January 2012
+        details:
+          -
+            - Analyst programmer
+            - "Web Developer: PHP (Yii) and MySQL"
+            - "Systems technician: Debian, Ubuntu"
+            - Git (Github)
+            - Redmine
+          -
+            - "Project: [Koowall](http://www.koowall.com)"
+            - "Reference: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile)"
+
+      - title: Senior Software Engineer & Software Architect
+        dates: September 2012 -- June 2014
+        details:
+          -
+            - PHP (Yii), Apache, MySQL and MongoDB
+            - Large JavaScript Application (CoffeeScript, CommonJS Spec)
+            - Database optimization
+            - Build and deployment automation (Grunt)
+            - Agile development (Kanban and Scrum)
+            - IT Training and Workshops
+            - Security auditing
+            - Instant messaging (Ejjaberd, PubNub)
+            - REST & WSDL Api
+            - Amazon Elastic Compute Cloud
+            - Git (Github)
+            - Redmine
+          -
+            - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
+            - "Project: [Keepunto](http://www.keepunto.com)"
+
+  - place: "[Indievelopment](http://indievelopment.info/)"
+    location: Dublin, Ireland
+    items:
+      - title: Chief Technology Officer
+        dates: June 2014 -- November 2014
+        details:
+          - Indie games social platform
+          - Requirements gathering
+          - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
+          - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
+
+skills:
+  - title: Preference
+    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/CoffeeScript, git/svn
+  - title: Working Knowledge
+    details:
+      - UML
+      - PHP, Java, Python, JavaScript, CoffeeScript, HTML
+      - MySQL, MongoDB
+      - Yii, Symfony, Django
+      - Debian, Ubuntu
+
+  - title: Basic Knowledge
+    details:
+      - Ruby, Rails, CSS
+      - Drupal, Redmine, Chamilo, Wordpress
+      - CentOS, FreeBSD
+
+  - title: Languages
+    details:
+      - Spanish, C2 native
+      - English, advanced B2
+
+projects:
+#  jorgebg.com:
+#    title: "[Personal Website](http://jorgebg.com)"
+
+  github:
+    title: "[GitHub Portfolio](http://github.com/jorgebg)"
+    details:
+      - Hosts extensions for Yii and Redmine developed by me, code samples, and patches for other open source projects.
+      - "Yii training slides: [Padawan](http://jorgebg.github.io/yii-slides/padawan.html), [Jedi](http://jorgebg.github.io/yii-slides/jedi.html)"
+  stackoverflow:
+    title: "[StackOverflow Profile](http://stackoverflow.com/users/959819/jorge-b-g)"
+    details:
+      - 650+ reputation
+      - "Badges: 3 Popular questions, Notable Question, Nice Answer"
+  ajbid.org:
+    title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
+    details:
+      - It was my biggest project as a freelancer
+      - Developed with [Yii](http://www.yiiframework.com/)
+      - Database migration from the old version
+  surpriz.es:
+    title: "[Surprizes](http://surpriz.es)"
+    details:
+      - Online affiliation system for shops
+      - Integration with barcode scanner
+      - Developed with [Yii](http://www.yiiframework.com/)
+  nordicosenadopcion.com:
+    title: "[Nórdicos en Adopción](http://nordicosenadopcion.com)"
+    details:
+      - Animal shelter in Spain, nonprofit
+      - Developed with [Drupal](https://www.drupal.org/)
+  falaciaslogicas.com:
+    title: "[Falacias Lógicas](http://falaciaslogicas.com)"
+    details:
+      - Logical fallacies guide
+      - Hosted on [GitHub Pages](https://pages.github.com).
+      - Developed with [Kekyll](http://jekyllrb.com).
+      - Adsense
+  scada:
+    title: "[SCADA Assembly line simulator](http://github.com/jorgebg/scada-ssii-uc3m)"
+    details:
+      - Developed in Java
+      - Project in [ARCOS](http://www.arcos.inf.uc3m.es/) (Computer Architecture and Technology Area) of the Carlos III University of Madrid
+  natural:
+    title: "[Natural language to Java compiler](https://github.com/jorgebg/language-processors-ii)"
+    details:
+      - Transforms a program descripted in natural language into a Java program
+      - Project in [GIAA](http://www.giaa.inf.uc3m.es/) (Applied Artificial Intelligence Group) of the Carlos III University of Madrid
+  rfid:
+    title: "[RFID USB Listener](http://github.com/jorgebg/rfid)"
+    details:
+      - Reads the events from a RFID Reader via USB.
+      - Developed in Python.
+#  llueve.es:
+#    title: "[Is it raining in spain?](http://llueve.es)"
+#    details:
+#      - Hosted on GitHub Pages.
+
+
+activities:
+  - title: "[Tuenti Contest](https://contest.tuenti.net/)"
+    details:
+      - Participated in the contests of 2011, 2012, 2013, 2014
+  - title: Volunteering
+    details:
+      - Medical Emergency Technician in [Civil Defense (Protección Civil)](http://www.proteccioncivil.org/) of [S.S. Reyes](http://www.ssreyes.org/es/portal.do?NM=2&IDM=51), Madrid (Spain), 2005 -- 2008
+
+  - title: Sports
+    details:
+      - Martial Arts, 2005 -- Present
+
+  - title: Arts
+    details:
+      - I started a rock music band, Madrid (Spain), 2004 -- 2006
+      - I won two poetry awards in S.S. Reyes, Madrid (Spain), 2007

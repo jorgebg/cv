@@ -1,0 +1,12 @@
+{
+    "name": "jorgebg/cv",
+    "authors": [
+        {
+            "name": "Jorge Barata González"
+        }
+    ],
+    "require": {
+        "cebe/markdown-latex": "~1.0",
+        "symfony/yaml": "~2.6"
+    }
+}
