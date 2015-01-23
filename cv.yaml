@@ -155,17 +155,20 @@ projects:
   surpriz.es:
     title: "[Surprizes](http://surpriz.es)"
     details:
+      - "[surpriz.es](http://surpriz.es)"
       - Online affiliation system for shops
       - Integration with barcode scanner
       - Developed with [Yii](http://www.yiiframework.com/)
   nordicosenadopcion.com:
     title: "[Nórdicos en Adopción](http://nordicosenadopcion.com)"
     details:
+      - "[nordicosenadopcion.com](http://nordicosenadopcion.com)"
       - Animal shelter in Spain, nonprofit
       - Developed with [Drupal](https://www.drupal.org/)
   falaciaslogicas.com:
     title: "[Falacias Lógicas](http://falaciaslogicas.com)"
     details:
+      - "[falaciaslogicas.com](http://falaciaslogicas.com)"
       - Logical fallacies guide
       - Hosted on [GitHub Pages](https://pages.github.com).
       - Developed with [Kekyll](http://jekyllrb.com).
