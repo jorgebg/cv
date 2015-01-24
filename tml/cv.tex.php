@@ -29,6 +29,9 @@
 % Font awesome
 \usepackage{fontawesome}
 
+% Gray color
+\usepackage{xcolor}
+
 \begin{document}  % begin the content of the document
 \sloppy  % this to relax whitespacing in favour of straight margins
 
@@ -87,7 +90,7 @@
 <? if($section == $experience): ?>
 \vspace{-0.2em}
 \begin{center}
-  \emph{\small Please refer to my \href{http://www.linkedin.com/in/<?= $social->linkedin ?>/en}{Linked-in profile (linkedin.com/in/<?=$social->linkedin?>/en)} to see my up to date recommendations.}
+  \emph{\small Please refer to my \href{http://www.linkedin.com/in/<?= $social->linkedin ?>/en}{Linked-in profile (linkedin.com/in/<?=$social->linkedin?>/en)} to see the recommendations.}
 \end{center}
 
 \spacedhrule{-0.2em}{-0.4em}
@@ -106,6 +109,13 @@
 {<?= join('\sbull ', (array)$item->details) ?>}
 <? endforeach ?>
 
+
+<? if($section == $projects): ?>
+\vspace{-0.2em}
+\begin{center}
+\emph{\small Please refer to my \href{<?=$homepage?>}{homepage <?=$homepage?>} to see a detailed list of the projects.}
+\end{center}
+<? endif ?>
 \spacedhrule{1.6em}{-0.4em}
 <? endforeach ?>
 
