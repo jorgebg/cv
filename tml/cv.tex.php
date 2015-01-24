@@ -113,7 +113,7 @@
 <? if($section == $projects): ?>
 \vspace{-0.2em}
 \begin{center}
-\emph{\small Please refer to my \href{<?=$homepage?>}{homepage <?=$homepage?>} to see a detailed list of the projects.}
+\emph{\small Please refer to my \href{<?=$homepage?>}{homepage (<?=$homepage?>)} to see a detailed list of the projects.}
 \end{center}
 <? endif ?>
 \spacedhrule{1.6em}{-0.4em}
