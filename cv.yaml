@@ -16,12 +16,12 @@ social:
 
 
 intro: |
-  **Software engineer** with experience in **web developing**, strong abilities in designing software and integrating a broad range of **cutting-edge technologies**.
+  **Software engineer** with extensive knowledge of **web development**, strong **software design** skills and hands on experience in integrating a broad range of **cutting-edge technologies**.
 
 description: |
-  More than five years of experience in **web technologies**, having gathered knowledge of *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and architectural systems research. Interested in a career in **software engineer and architecture**.
-  He studied **Bachelor in Computer Science** and **Software Engineer** in Spain, currently working on the final project for his dissertation.
-  He really enjoys **open source** software and do my best to contribute to projects which he is interested in like *Yii*, *Symfony*, *Redmine* and more. He also try to open source everything he does.
+  More than five years of experience in **web technologies**, having gathered knowledge on *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and systems architecture research. Interested in following a career as **software engineer and architect**.
+  He studied **BSc. in Computer Science** and **Software Engineering** in Spain, currently working on the final project for his dissertation.
+  He really enjoys **free software**  and does his best to contribute to projects he is interested in, such as *Yii*, *Symfony* and *Redmine* among others. He also tries to open source everything he does.
 
 education:
   - place: "[Carlos III University of Madrid](http://www.uc3m.es/)"
@@ -30,16 +30,16 @@ education:
       - title: B.Sc. Computer Science & Software Engineering
         dates: August 2007 -- present
         details:
-          - Specialiced on Distributed Systems
+          - Specialised in Distributed Systems
           - Bilingual (Spanish and English)
-          - Currently developing my final project for my dissertation
+          - Currently developing the final project for the dissertation
           - First class honours on Network Computing (2009)
 
 experience:
   - place: "[Customer Service Center, Carlos III University of Madrid](http://cau.uc3m.es/)"
     location: Madrid, Spain
     items:
-      - title: Computer Technic
+      - title: Computer Technician
         dates: September 2008 -- June 2009
         details:
           - Computer support
@@ -52,16 +52,15 @@ experience:
         dates: June 2009 -- April 2011
         details:
           -
-            - "Web Developer: Python (Django), PHP (Symfony and Yii) and MySQL"
+            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii) and MySQL"
             - "Systems technician: FreeBSD, Debian, CentOS, Web Servers (Cherokee and Apache), Mail Server (Postfix)"
-            - Analyst programmer
             - Multilingual, translations backend
             - Adwords custom backend
             - Subversion
             - ActiveCollab
             - Remote working
           -
-            - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation in Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
+            - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation on Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
 
   - place: "[Vivocom EU](http://www.vivocom.eu)"
     location: Madrid, Spain
@@ -105,7 +104,7 @@ experience:
       - title: Chief Technology Officer
         dates: June 2014 -- November 2014
         details:
-          - Indie games social platform
+          - Indie games social crowdfunding platform
           - Requirements gathering
           - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
           - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
@@ -139,7 +138,7 @@ projects:
   github:
     title: "[GitHub Portfolio](http://github.com/jorgebg)"
     details:
-      - Hosts extensions for Yii and Redmine developed by me, code samples, and patches for other open source projects.
+      - Hosts extensions for Yii and Redmine developed by him, code samples, and patches for other open source projects.
       - "Yii training slides: [Padawan](http://jorgebg.github.io/yii-slides/padawan.html), [Jedi](http://jorgebg.github.io/yii-slides/jedi.html)"
   stackoverflow:
     title: "[StackOverflow Profile](http://stackoverflow.com/users/959819/jorge-b-g)"
@@ -149,7 +148,7 @@ projects:
   ajbid.org:
     title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
     details:
-      - It was my biggest project as a freelancer
+      - It was the largest project as a freelancer
       - Developed with [Yii](http://www.yiiframework.com/)
       - Database migration from the old version
   surpriz.es:
@@ -195,8 +194,9 @@ projects:
 
 
 activities:
-  - title: "[Tuenti Contest](https://contest.tuenti.net/)"
+  - title: "[Tuenti Challenge](https://contest.tuenti.net/)"
     details:
+      - It's a contest that consists of some typical programming challenges, and others that don’t include any hints and can be quite tricky
       - Participated in the contests of 2011, 2012, 2013, 2014
   - title: Volunteering
     details:
@@ -208,5 +208,5 @@ activities:
 
   - title: Arts
     details:
-      - I started a rock music band, Madrid (Spain), 2004 -- 2006
-      - I won two poetry awards in S.S. Reyes, Madrid (Spain), 2007
+      - Started a rock music band, Madrid (Spain), 2004 -- 2006
+      - Won two poetry awards in S.S. Reyes, Madrid (Spain), 2007
