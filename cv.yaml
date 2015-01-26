@@ -116,8 +116,8 @@ skills:
     details:
       - UML, OOP, MVC
       - PHP, Java, Python, JavaScript, CoffeeScript, HTML
-      - MySQL, MongoDB
       - Yii, Symfony, Django
+      - MySQL, MongoDB
       - Debian, Ubuntu
 
   - title: Basic Knowledge
@@ -132,8 +132,8 @@ skills:
       - English, advanced B2
 
 projects:
-#  jorgebg.com:
-#    title: "[Personal Website](http://jorgebg.com)"
+  jorgebg.com:
+    title: "[Personal Website](http://jorgebg.com)"
 
   github:
     title: "[GitHub Portfolio](http://github.com/jorgebg)"
