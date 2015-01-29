@@ -36,31 +36,18 @@ education:
           - First class honours on Network Computing (2009)
 
 experience:
-  - place: "[Customer Service Center, Carlos III University of Madrid](http://cau.uc3m.es/)"
-    location: Madrid, Spain
-    items:
-      - title: Computer Technician
-        dates: September 2008 -- June 2009
-        details:
-          - Computer support
-          - Customer service
 
-  - place: "[InDaHouseRulez](http://indahouserulez.com/)"
-    location: Madrid, Spain
+  - place: "[Indievelopment](http://indievelopment.info/)"
+    location: Dublin, Ireland
     items:
-      - title: Software Developer
-        dates: June 2009 -- April 2011
+      - title: Chief Technology Officer
+        dates: June 2014 -- November 2014
         details:
-          -
-            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii) and MySQL"
-            - "Systems technician: FreeBSD, Debian, CentOS, Web Servers (Cherokee and Apache), Mail Server (Postfix)"
-            - Multilingual, translations backend
-            - Adwords custom backend
-            - Subversion
-            - ActiveCollab
-            - Remote working
-          -
-            - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation on Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
+          - Indie games social crowdfunding platform
+          - Requirements gathering
+          - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
+          - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
+
 
   - place: "[Vivocom EU](http://www.vivocom.eu)"
     location: Madrid, Spain
@@ -75,8 +62,8 @@ experience:
             - Git (Github)
             - Redmine
           -
-            - "Project: [Koowall](http://www.koowall.com)"
             - "Reference: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile)"
+            - "Project: [Koowall](http://www.koowall.com)"
 
       - title: Senior Software Engineer & Software Architect
         dates: September 2012 -- June 2014
@@ -98,16 +85,33 @@ experience:
             - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
             - "Project: [Keepunto](http://www.keepunto.com)"
 
-  - place: "[Indievelopment](http://indievelopment.info/)"
-    location: Dublin, Ireland
+
+  - place: "[InDaHouseRulez](http://indahouserulez.com/)"
+    location: Madrid, Spain
     items:
-      - title: Chief Technology Officer
-        dates: June 2014 -- November 2014
+      - title: Software Developer
+        dates: June 2009 -- April 2011
         details:
-          - Indie games social crowdfunding platform
-          - Requirements gathering
-          - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
-          - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
+          -
+            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii) and MySQL"
+            - "Systems technician: FreeBSD, Debian, CentOS, Web Servers (Cherokee and Apache), Mail Server (Postfix)"
+            - Multilingual, translations backend
+            - Adwords custom backend
+            - Subversion
+            - ActiveCollab
+            - Remote working
+          -
+            - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation on Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
+
+
+  - place: "[Customer Service Center, Carlos III University of Madrid](http://cau.uc3m.es/)"
+    location: Madrid, Spain
+    items:
+      - title: Computer Technician
+        dates: September 2008 -- June 2009
+        details:
+          - Computer support
+          - Customer service
 
 skills:
   - title: Preference
