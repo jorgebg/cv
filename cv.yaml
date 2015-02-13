@@ -19,7 +19,7 @@ intro: |
   **Software engineer** with extensive knowledge of **web development**, strong **software design** skills and hands on experience in integrating a broad range of **cutting-edge technologies**.
 
 description: |
-  More than five years of experience in **web technologies**, having gathered knowledge on *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and systems architecture research. Interested in following a career as **software engineer and architect**.
+  More than five years of experience in **web technologies**, having gathered knowledge on *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and systems architecture research. Interested in following a career as **software architect**.
   He studied **BSc. in Computer Science** and **Software Engineering** in Spain, currently working on the final project for his dissertation.
   He really enjoys **free software**  and does his best to contribute to projects he is interested in, such as *Yii*, *Symfony* and *Redmine* among others. He also tries to open source everything he does.
 
@@ -52,6 +52,25 @@ experience:
   - place: "[Vivocom EU](http://www.vivocom.eu)"
     location: Madrid, Spain
     items:
+      - title: Senior Software Engineer & Software Architect
+        dates: September 2012 -- June 2014
+        details:
+          -
+            - PHP (Yii), Apache, MySQL and MongoDB
+            - Large JavaScript Application (CoffeeScript, CommonJS)
+            - Database optimization
+            - Continuos Integration (Git & Github)
+            - Agile development (Kanban and Scrum)
+            - IT Training and Workshops
+            - Security auditing
+            - Instant messaging (XMPP, WebSockets)
+            - Web APIs (REST, WSDL)
+            - Amazon EC2
+            - Redmine
+          -
+            - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
+            - "Project: [Keepunto](http://www.keepunto.com)"
+
       - title: Junior Software Engineer
         dates: April 2011 -- January 2012
         details:
@@ -64,26 +83,6 @@ experience:
           -
             - "Reference: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile)"
             - "Project: [Koowall](http://www.koowall.com)"
-
-      - title: Senior Software Engineer & Software Architect
-        dates: September 2012 -- June 2014
-        details:
-          -
-            - PHP (Yii), Apache, MySQL and MongoDB
-            - Large JavaScript Application (CoffeeScript, CommonJS Spec)
-            - Database optimization
-            - Build and deployment automation (Grunt)
-            - Agile development (Kanban and Scrum)
-            - IT Training and Workshops
-            - Security auditing
-            - Instant messaging (Ejjaberd, PubNub)
-            - REST & WSDL Api
-            - Amazon Elastic Compute Cloud
-            - Git (Github)
-            - Redmine
-          -
-            - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
-            - "Project: [Keepunto](http://www.keepunto.com)"
 
 
   - place: "[InDaHouseRulez](http://indahouserulez.com/)"
@@ -115,20 +114,31 @@ experience:
 
 skills:
   - title: Preference
-    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/CoffeeScript, git/svn
+    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/CoffeeScript, Git/Subversion
   - title: Working Knowledge
     details:
-      - UML, OOP, MVC
+      - UML, OOP, MVC, Continuous Integration, Agile development
       - PHP, Java, Python, JavaScript, CoffeeScript, HTML
       - Yii, Symfony, Django
       - MySQL, MongoDB
-      - Debian, Ubuntu
+      - Apache
+      - REST
+      - Linux (Debian, Ubuntu)
+      - Git
+      - PHP/MySQL optimization
 
   - title: Basic Knowledge
     details:
-      - Ruby, Rails, CSS, C, .NET
+      - Test Driven Development, Reactive programming
+      - Ruby, Rails, CSS, C, .NET, Erlang
       - Drupal, Redmine, Chamilo, Wordpress
-      - CentOS, FreeBSD
+      - SQLite, PostgreSQL, Oracle
+      - Nginx
+      - WSDL, SOAP
+      - WebSockets, AMQP (RabbitMq)
+      - Subversion
+      - Virtualization (VirtualBox, Amazon EC2)
+      - Windows, Mac OS
 
   - title: Languages
     details:
@@ -198,10 +208,11 @@ projects:
 
 
 activities:
-  - title: "[Tuenti Challenge](https://contest.tuenti.net/)"
+  - title: Competitive programming
     details:
-      - It's a contest that consists of some typical programming challenges, and others that don’t include any hints and can be quite tricky
-      - Participated in the contests of 2011, 2012, 2013, 2014
+      - Particularly interested in dynamic programming, but also in *hackatons*
+      - Participated in the "[T3chFest Programming Contest](https://techfest.uc3m.es/concursos/concurso-de-programacion/)" of 2013, 2014 and 2015. In [the last one](http://jorgebg.github.io/T3chFest-2015) I got a [rank of *12/69*, with *517/600* points](https://techfest.uc3m.es/files/uploads/2014/01/RankingConcursoProgramacion.pdf).
+      - Participated in the "[Tuenti Challenge](https://contest.tuenti.net/)" of 2011, 2012, 2013, 2014
   - title: Volunteering
     details:
       - Medical Emergency Technician in [Civil Defense (Protección Civil)](http://www.proteccioncivil.org/) of [S.S. Reyes](http://www.ssreyes.org/es/portal.do?NM=2&IDM=51), Madrid (Spain), 2005 -- 2008
