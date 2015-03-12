@@ -114,7 +114,7 @@ experience:
 
 skills:
   - title: Preference
-    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/CoffeeScript, Git/Subversion
+    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/ES6, Git/Subversion
   - title: Working Knowledge
     details:
       - UML, OOP, MVC, Continuous Integration, Agile development
@@ -157,7 +157,7 @@ projects:
   stackoverflow:
     title: "[StackOverflow Profile](http://stackoverflow.com/users/959819/jorge-b-g)"
     details:
-      - 650+ reputation
+      - 700+ reputation
       - "Badges: 3 Popular questions, Notable Question, Nice Answer"
   ajbid.org:
     title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
