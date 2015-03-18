@@ -112,7 +112,8 @@ experience:
 
 skills:
   - title: Preference
-    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/Node.js, Git/Subversion
+    details: Ubuntu/Debian, NetBeans/Eclipse, Python/ES6/PHP, Git/Subversion
+
   - title: Working Knowledge
     details:
       - UML, OOP, MVC, Continuous Integration, Agile development
@@ -136,7 +137,8 @@ skills:
       - WSDL, SOAP
       - WebSockets, XMPP, AMQP, RabbitMq, Celery, Amazon SQS
       - Subversion
-      - Virtualization (VirtualBox, Amazon EC2)
+      - VirtualBox, Amazon EC2, Heroku
+      - Metasploit
       - Windows, Mac OS
       - Vim
 
@@ -157,7 +159,7 @@ projects:
   stackoverflow:
     title: "[StackOverflow Profile](http://stackoverflow.com/users/959819/jorge-b-g)"
     details:
-      - 650+ reputation
+      - 700+ reputation
       - "Badges: 3 Popular questions, Notable Question, Nice Answer"
   ajbid.org:
     title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
