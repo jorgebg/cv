@@ -52,20 +52,20 @@ experience:
   - place: "[Vivocom EU](http://www.vivocom.eu)"
     location: Madrid, Spain
     items:
-      - title: Senior Software Engineer & Software Architect
+      - title: Senior Software Engineer
         dates: September 2012 -- June 2014
         details:
           -
             - PHP (Yii), Apache, MySQL and MongoDB
             - Large JavaScript Application (CoffeeScript, CommonJS)
             - Database optimization
-            - Continuos Integration (Git & Github)
+            - Continuos Integration (Git and Github)
             - Agile development (Kanban and Scrum)
             - IT Training and Workshops
             - Security auditing
             - Instant messaging (XMPP, WebSockets)
             - Web APIs (REST, WSDL)
-            - Amazon EC2
+            - Amazon EC2, SQS
             - Redmine
           -
             - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
@@ -92,10 +92,8 @@ experience:
         dates: June 2009 -- April 2011
         details:
           -
-            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii) and MySQL"
-            - "Systems technician: FreeBSD, Debian, CentOS, Web Servers (Cherokee and Apache), Mail Server (Postfix)"
-            - Multilingual, translations backend
-            - Adwords custom backend
+            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii), MySQL"
+            - "Systems technician: Web Servers (Cherokee and Apache), Linux, Mail Server (Postfix)"
             - Subversion
             - ActiveCollab
             - Remote working
@@ -109,20 +107,21 @@ experience:
       - title: Computer Technician
         dates: September 2008 -- June 2009
         details:
-          - Computer support
+          - Computer support (Windows, Mac OS)
           - Customer service
 
 skills:
   - title: Preference
-    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/CoffeeScript, Git/Subversion
+    details: Ubuntu/Debian, NetBeans/Eclipse, PHP/Python/Node.js, Git/Subversion
   - title: Working Knowledge
     details:
       - UML, OOP, MVC, Continuous Integration, Agile development
-      - PHP, Java, Python, JavaScript, CoffeeScript, HTML
+      - PHP, Java, Python, Node.js, JavaScript, CoffeeScript, HTML
       - Yii, Symfony, Django
       - MySQL, MongoDB
       - Apache
       - REST
+      - NetBeans, Eclipse
       - Linux (Debian, Ubuntu)
       - Git
       - PHP/MySQL optimization
@@ -130,15 +129,16 @@ skills:
   - title: Basic Knowledge
     details:
       - Test Driven Development, Reactive programming
-      - Ruby, Rails, CSS, C, .NET, Erlang
+      - Ruby, Rails, Ember.js, CSS, C, .NET, Erlang
       - Drupal, Redmine, Chamilo, Wordpress
-      - SQLite, PostgreSQL, Oracle
+      - SQLite, PostgreSQL, Oracle, Redis
       - Nginx
       - WSDL, SOAP
-      - WebSockets, AMQP (RabbitMq)
+      - WebSockets, XMPP, AMQP, RabbitMq, Celery, Amazon SQS
       - Subversion
       - Virtualization (VirtualBox, Amazon EC2)
       - Windows, Mac OS
+      - Vim
 
   - title: Languages
     details:
