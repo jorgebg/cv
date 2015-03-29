@@ -1,163 +1,151 @@
-% cv.sty
+\nonstopmode
+\def\data{}
 
-% Copyright (c) 2015 Jorge Barata González
-%
-% The MIT License
-%
-% Permission is hereby granted, free of charge, to any person obtaining a copy
-% of this software and associated documentation files (the "Software"), to deal
-% in the Software without restriction, including without limitation the rights
-% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-% copies of the Software, and to permit persons to whom the Software is
-% furnished to do so, subject to the following conditions:
-%
-% The above copyright notice and this permission notice shall be included in
-% all copies or substantial portions of the Software.
-%
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-% SOFTWARE.
-
-%
-% This style contains some commands for making a LaTeX resume
-%
-% Please refer to the README.md file for more info.
-%
-% This project is currently hosted at: https://github.com/jorgebg/cv
-%
-
-
-
-
-%%% LOAD AND SETUP PACKAGES
-
-%small page margins
 \usepackage[cm]{fullpage}
+\usepackage[protrusion]{microtype}
+\usepackage{xcolor}
 
-% To finetune lists with a inline heading and indented content.
-% See the Experiences section in the example.
-\usepackage{mdwlist}
-
-% For multiple column text.
+% Multiple columns {{{
 \usepackage{multicol}
+\setlength{\columnsep}{2em}
+% }}}
 
-% For \textscale, which I prefer over \sc (small caps).
-% See the \acr command definition below.
-\usepackage{relsize}
+% Lists with inline header and indented content.
+\usepackage{mdwlist}
+\usepackage{enumitem}
 
-% Setup the hyperrefs witht he right color.
+% Fonts {{{
+\usepackage{fontawesome}
+%\usepackage{fontspec}
+% \setmainfont
+%   [ ExternalLocation ,
+%     Mapping          = tex-text ,
+%     BoldFont         = texgyrepagella-bold.otf ,
+%     ItalicFont       = texgyrepagella-italic.otf ,
+%     BoldItalicFont   = texgyrepagella-bolditalic.otf ]
+%   {texgyrepagella-regular.otf}
+% }}}
+
+% Links {{{
+
 \usepackage{hyperref}
-
-% XeTeX specific stuff with fall-back.
-\usepackage{ifxetex}
-\ifxetex
-
-  \usepackage{fontspec}
-
-  % the main font, with all features on
-  \setmainfont
-    [ ExternalLocation ,
-      Mapping          = tex-text ,
-      Ligatures        = {Common,Contextual} ,
-      BoldFont         = texgyrepagella-bold.otf ,
-      ItalicFont       = texgyrepagella-italic.otf ,
-      BoldItalicFont   = texgyrepagella-bolditalic.otf ]
-    {texgyrepagella-regular.otf}
-
-  % same like the main font, but without old-style nums
-  \newfontfamily\newnums
-    [ ExternalLocation ,
-      Mapping          = tex-text ,
-      Ligatures        = {Common,Contextual} ,
-      BoldFont         = texgyrepagella-bold.otf ,
-      ItalicFont       = texgyrepagella-italic.otf ,
-      BoldItalicFont   = texgyrepagella-bolditalic.otf ]
-    {texgyrepagella-regular.otf}
-  % Comment out the previous statement and uncomment the following line to use the
-  % Linux Libertine font (it has nice lignatures).
-  % Make sure to have the `ttf-linux-libertine` package installed on Ubuntu.
-%  \setmainfont[Mapping=tex-text, Numbers=OldStyle, Ligatures={Common,Contextual}]{Linux Libertine O}
-
-  % needs an experimental and impossible to find package for xetex
-  \usepackage[protrusion]{microtype}
-
-\else
-
-  % this case we likely use the `pdftex` back-end
-  % therefor we lack:
-  %  * lower case numbers,
-  %  * ligatures and
-  %  * some typographic niceties
-  % We do make use of the possibility to use `microtype`
-  \usepackage{tgpagella}
-  \usepackage[expansion,protrusion]{microtype}
-
-\fi
-
-
-
-%%% DOCUMENT WIDE STYLING
-
-\pagestyle{empty}
-\setlength{\tabcolsep}{0em}
-\xspaceskip7pt  % some more spacing between sentences (use "i.e.\ " or "with SQL\@. " in case of errors)
-
-
-
-%%% CUSTOM COMMANDS
-
-% main title (name) with subtitle (date)
-\newcommand\maintitle[3]{\vbox to 0pt{\hfill\small #3}\vspace{-0.4em}\noindent{\LARGE \textbf{#1}}\ \ \ \emph{#2}}
-
-% title for the root sections (experience, education, etc) of the resume
-\newcommand*\roottitle[1]{\subsection*{#1}\vspace{-0.3em}\nopagebreak[4]}
-
-% acr command, to quickly mark acronyms for special formatting
-\newcommand*\acr[1]{\textscale{.85}{#1}}
-
-% pretty bullet (created from a much smaller centerdot), \sbull contains its spacing
-\newcommand*\bull{\raisebox{-0.365em}[-1em][-1em]{\textscale{4}{$\cdot$}}}
-\newcommand*\sbull{\ \ \bull \ \ }
-
-% it seems not to work when simply using \parindent...
-\newlength{\newparindent}
-\addtolength{\newparindent}{\parindent}
-
-% a double \parindent...
-\newlength{\doubleparindent}
-\addtolength{\doubleparindent}{\parindent}
-\addtolength{\doubleparindent}{\parindent}
-
-% indentsection style, used for sections that aren't already in lists
-% that need indentation to the level of all text in the document
-\newenvironment{indentsection}%
-{\begin{list}{}%
-  {\setlength{\leftmargin}{\newparindent}\setlength{\parsep}{0pt}\setlength{\parskip}{0pt}\setlength{\itemsep}{0pt}\setlength{\topsep}{0pt}}%
+\definecolor{url}{HTML}{474F5E}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=url,
+  pdftitle={Jorge Barata - Curriculum Vitae},
+  bookmarks=true,
 }
-{\end{list}}
 
-% headerrow command, used for a new employer
-\newcommand{\headedsection}[3]{\nopagebreak[4]\begin{indentsection}\item[]\textscale{1.1}{#1}\hfill#2\smallskip#3\end{indentsection}\nopagebreak[4]}
+\newcommand\anchor[2]{\texttt{\href{#1}{#2}}}
+\newcommand\tel[1]{\anchor{tel:+#1}{\small+#1}}
+\newcommand\mailto[1]{\anchor{mailto:#1}{#1}}
+\newcommand\http[1]{\anchor{http://#1}{#1}}
+\newcommand\web[1]{{\scriptsize\color{url}\faicon{globe}}\ \http{#1}}
 
-% subheaderrow command, used for a new position
-\newcommand{\headedsubsection}[3]{\nopagebreak[4]\begin{indentsection}\item[]\textbf{#1}\hfill\emph{#2}#3\medskip\end{indentsection}\nopagebreak[4]}
+% }}}
 
-% body text (indented)
-\newcommand{\bodytext}[1]{\nopagebreak[4]\begin{indentsection}\item[]#1\end{indentsection}\pagebreak[2]}
+% Header {{{
 
-% \vspace variaties
-\newcommand{\breakvspace}[1]{\pagebreak[2]\vspace{#1}\pagebreak[2]}
-\newcommand{\nobreakvspace}[1]{\nopagebreak[4]\vspace{#1}\nopagebreak[4]}
+\newcommand\info[4]{{
+  \color{url}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ c l }
+    \faicon{phone} & \tel{#1} \\
+    \faicon{envelope-alt} & \mailto{#2} \\
+    \faicon{github} & \http{#3} \\
+    \faicon{globe} & \http{#4} \\
+  \end{tabular}
+}}
 
-% \spacedhrule a horizontal line with some vertical space before and after it
-\newcommand{\spacedhrule}[2]{\breakvspace{#1}\hrule\nobreakvspace{#2}}
+\newcommand\boxinfo[4]{
+  \vbox to 0pt{
+    \hfill
+    \small
+    \info{#1}{#2}{#3}{#4}
+  }
+}
 
-% \inlineheadsection command, used for a new employer
-\newcommand{\inlineheadsection}[2]{\begin{basedescript}{\setlength{\leftmargin}{\doubleparindent}}\item[\hspace{\newparindent}\textbf{#1}]#2\end{basedescript}\vspace{-1.2em}}
+\newcommand\header[3]{
+  %{\section{#1}\quad\emph{#2}}
+  \setlength{\parindent}{0em}
+  {\LARGE\textbf{#1}}\quad{\emph{#2}}
+  \medbreak
+  {#3}
+  \medbreak
+}
+% }}}
 
-% non space that allows line breaks
-\newcommand*{\nsp}{\hskip0pt}
+% Summary (abtract) {{{
+\renewcommand{\abstractname}{Summary}
+% }}}
+
+% Sections {{{
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\Large\scshape}
+  {}{0em}
+  {\centering}
+  [\titlerule]
+
+\titleformat{\subsection}
+  {\large\scshape}
+  {}{0em}
+  {\centering}
+
+\titleformat{\subsubsection}
+  {\normalsize\bf}
+  {}{0em}
+  {\centering}
+
+
+\newenvironment{curriculum}{
+
+
+  \titleformat{\subsection}
+    {\large\bf\raggedright}
+    {}{0em}
+    {}
+
+
+  \titleformat{\subsubsection}
+    {\large\bf\textit}
+    {}{0em}
+    {\centering}
+
+  \newcommand\headline[3]{
+    \subsection[##1]{##1\textnormal{\normalsize{\if&##2&\else\quad\web{##2}\fi\hfill\small\textsc{##3}}}}
+  }
+  \newcommand\activity[3]{
+    \subsubsection[##1]{##1\textnormal{\color{url}\hfill\small{\ifx&##2&\else##2 -- \fi##3}}}
+  }
+}{}
+
+
+\newenvironment{experience}{
+\begin{multicols}{2}
+}
+{
+\end{multicols}
+}
+
+\newenvironment{block}{
+\begin{minipage}{\columnwidth}
+}{
+\end{minipage}
+}
+
+\newcommand\preferences[1]{\centering{\color{url}\textnormal{\small\textsc{preferences:}\enskip{\scriptsize #1}}}}
+% \newcommand\tagline[2]{\hfill\textnormal{\small\textsc{#1:}\enskip{\scriptsize #2}}}
+
+\newcommand\notes[1]{\center\small\emph{#1}}
+
+% }}}
+
+\newcommand\line{\leavevmode\leaders\hrule height 0.7ex depth \dimexpr0.4pt-0.7ex\hfill\kern0pt}
+
+\newcommand\ttbullet{{\tiny\textbullet}}
+\newcommand\sep{\parbox[c]{0.5em}{\ttbullet}\ }
+%\renewcommand\labelitemi{\ttbullet}
+%\renewcommand\labelitemi{\textemdash}

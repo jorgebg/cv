@@ -37,7 +37,6 @@
 
 % title on top of the document
 \maintitle{<?=$name?>}{<?=$birthday?>}{
-  \bgroup
   \def\arraystretch{1.2}
   \begin{tabular}{ m{1.5em} l }
   \faPhone & \textsmaller{+}<?=$phone?> \\
@@ -45,7 +44,6 @@
   \faGithub & \href{http://github.com/<?=$homepage?>}{github.com/<?=$homepage?>} \\
   \faGlobe & \href{http://<?=$homepage?>}{<?=$homepage?>} \\
   \end{tabular}
-  \egroup
   }
 
 \nobreakvspace{0.3em}  % add some page break averse vertical spacing
@@ -79,7 +77,7 @@
     {<?=$item->title?>}
     {<?=$item->dates?>\smallskip}
     {
-      <? foreach(is_scalar(reset($item->details)) ? [$item->details] : $item->details as $detail): ?>
+      <? foreach($item->details as $detail): ?>
       \bodytext{<?= join('\sbull ', (array)$detail) ?>\smallskip}
       <? endforeach ?>
     }
@@ -100,8 +98,27 @@
 
 <? endforeach ?>
 
+<? foreach(compact('skills') as $title => $section): ?>
+\roottitle{<?=ucfirst($title)?>}
+<? foreach($section as $item): ?>
+  <? $details = (array)$item->details ?>
+  \headedsection  % special section that has an inline header with a 'hanging' paragraph
+  {\textsc{<?= $item->title ?>}}
+  <? if(array_values($details) === $details): ?>
+  \bodytext{<?= join('\sbull ', $details) ?>}
+  <? else: ?>
+  <? foreach($details as $title => $detail): ?>
+    \headedsubsection
+    {\textbf{<?=$title ?>}}
+    \bodytext{<?= join('\sbull ', (array)$detail) ?>}
+  <? endforeach ?>
+  <? endif ?>
+  \smallskip
+<? endforeach ?>
+<? endforeach ?>
 
-<? foreach(compact('skills', 'projects', 'activities') as $title => $section): ?>
+
+<? foreach(compact('projects', 'activities') as $title => $section): ?>
 \roottitle{<?=ucfirst($title)?>}
 <? foreach($section as $item): ?>
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph

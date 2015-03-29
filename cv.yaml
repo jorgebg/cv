@@ -1,11 +1,11 @@
-name: Jorge Barata González
+name: Jorge Barata
 birthday: November 1, 1987
 
 phone: 000 123 45 67 89
 
 mail: jorge@example.com
 
-address: 123 Fake Street -- Springfield, Undetermined state
+address: 123 Fake Street – Springfield, Undetermined state
 
 homepage: jorgebg.com
 
@@ -14,133 +14,194 @@ social:
   linkedin: jorgebaratagonzalez
   stackoverflow: 959819
 
+#intro:
+#  - Broad technical knowledge and creative problem solving skills.
+#  - Excellent communication skills, able to explain complex systems to non-technical individuals.
+#  - Focus on providing reliable and scalable solutions based on Open Source technologies.
+#  - Specific Expertise with Linux and the LAMP stack.
 
 intro: |
-  **Software engineer** with extensive knowledge of **web development**, strong **software design** skills and hands on experience in integrating a broad range of **cutting-edge technologies**.
+  __Software engineer__ with extensive knowledge of __web application architecting__, strong __software design__ skills and hands on experience in integrating a broad range of __cutting-edge open source technologies__.
 
 description: |
-  More than five years of experience in **web technologies**, having gathered knowledge on *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and systems architecture research. Interested in following a career as **software architect**.
-  He studied **BSc. in Computer Science** and **Software Engineering** in Spain, currently working on the final project for his dissertation.
-  He really enjoys **free software**  and does his best to contribute to projects he is interested in, such as *Yii*, *Symfony* and *Redmine* among others. He also tries to open source everything he does.
+  More than five years of experience in __web technologies__, having gathered knowledge on *Linux*, *PHP*, *Python*, *JavaScript* and *SQL*. Great skill in developing requirements specifications, UML design and systems architecture research. Interested in following a career as __Software Architect__.
+  He studied __BSc. in Computer Science and Engineering__ in Spain, currently working on the final project for his dissertation.
+  He really enjoys __free software__  and does his best to contribute to projects he is interested in, such as *Yii*, *Symfony* and *Redmine* among others. He also tries to open source everything he does.
 
 education:
-  - place: "[Carlos III University of Madrid](http://www.uc3m.es/)"
+  - place: Carlos III University of Madrid | www.uc3m.es
     location: Madrid, Spain
     items:
-      - title: B.Sc. Computer Science & Software Engineering
-        dates: August 2007 -- present
+      - title: B.Sc. Computer Science and Engineering
+        dates: August 2007 – present
         details:
-          - Specialised in Distributed Systems
+          - Specialty in Distributed Systems
           - Bilingual (Spanish and English)
           - Currently developing the final project for the dissertation
           - First class honours on Network Computing (2009)
 
 experience:
 
-  - place: "[Indievelopment](http://indievelopment.info/)"
+  - place: Indievelopment | indievelopment.info
     location: Dublin, Ireland
     items:
-      - title: Chief Technology Officer
-        dates: June 2014 -- November 2014
+      - title: Chief Technology Officer — CTO
+        dates: June 2014 – November 2014
         details:
-          - Indie games social crowdfunding platform
-          - Requirements gathering
-          - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
-          - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
+          -
+            - "__Indievelopment__ is a crowdsourcing social platform for indie video games that helps developers to raising funds, sharing resources, networking with peers and creating a loyal base of gamers who support the project through to completion."
+            - "Launchbox 2013 startup: [launchbox.ie/companies/indievelopment](http://www.launchbox.ie/companies/indievelopment)"
+          -
+            - Architecture designed for deployment on [Microsoft Azure](http://azure.microsoft.com).
+            - Landing page hosted on [Microsoft Azure](http://azure.microsoft.com).
 
-
-  - place: "[Vivocom EU](http://www.vivocom.eu)"
+  - place: Vivocom EU | www.vivocom.eu
     location: Madrid, Spain
     items:
-      - title: Senior Software Engineer
-        dates: September 2012 -- June 2014
+      - title: Full-Stack Web Architect
+        dates: January 2013 – June 2014
         details:
           -
-            - PHP (Yii), Apache, MySQL and MongoDB
+            - __KeePunto__ is an internet community in Spain for teenagers that promotes economic and financial education. It pioneered the creation of the first virtual currency in Spain, the _KEE_. The site allows to manage accounts and deposits, to track income, expenses, movements, etc. _KEEs_ are earned through gamification or buying them with real money (€). The users are able to exchange it for gifts.
+            - Funded by the Spanish Ministry of Industry, Energy and Tourism as part of [_Plan Avanza 2_](https://www.planavanza.es) program
+            - 100,000 registered users in its first year
+            - It was awarded the Prize for Most innovative business project by the [_Inspirational Festival_](http://inspirationalfestival.com/) of 2013
+          -
+            - PHP Yii Framework, Apache, Java, MySQL and MongoDB
             - Large JavaScript Application (CoffeeScript, CommonJS)
-            - Database optimization
-            - Continuos Integration (Git and Github)
-            - Agile development (Kanban and Scrum)
-            - IT Training and Workshops
-            - Security auditing
-            - Instant messaging (XMPP, WebSockets)
-            - Web APIs (REST, WSDL)
-            - Amazon EC2, SQS
-            - Redmine
+            - Online payment gateway, PayPal
+            - Database optimization (MySQL and MongoDB)
+            - Continuous Integration (Git and Github)
+            - Agile development (Kanban and Scrum, Redmine)
+            - IT Training, Talks and Workshops
+            - Web APIs (REST, WSDL, OAuth)
+            - Automation (Gruntjs)
+            - Scalability, deployed over Amazon AWS
+            - Workers, background jobs and queying
+            - Web security auditor (SQLi, XSS, CSRF, SSL/HTTPS, OAuth, Session hijacking)
+            - Free Software expert
           -
             - "References: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile), [Kublai Gómez Soto](https://www.linkedin.com/in/kublai)"
-            - "Project: [Keepunto](http://www.keepunto.com)"
+            - "Website: [keepunto.com](http://www.keepunto.com)"
+            - "Videos: [YouTube channel](https://www.youtube.com/watch?v=usjou9iFj7U)"
 
-      - title: Junior Software Engineer
-        dates: April 2011 -- January 2012
+      - title: Senior Software Engineer
+        dates: September 2012 – January 2013
         details:
           -
+            - __KeePunto__
+            - http://www.anekis.es/
+            - "Anekis: [anekis.es](http://www.anekis.es/)"
+          -
+            - Instant messaging (XMPP, WebSockets)
+            - Ejjaberd
+
+      - title: Junior Software Engineer
+        dates: April 2011 – January 2012
+        details:
+          -
+            - "__Koowall__ is a beta social network focused to groups. Users post over a digital wall that can be slided backward and forward in a timeline manner"
+            - Users can post photos, videos and texts, merge their accounts with their Facebook account, and share contents with Facebook
+            - Users can create new digital walls with different levels of privacy
+            - In 2011, the Spanish Socialist Workers' Party (PSOE) held a political conference, reaching 25,000 unique visitors over two days.
+          -
             - Analyst programmer
-            - "Web Developer: PHP (Yii) and MySQL"
-            - "Systems technician: Debian, Ubuntu"
-            - Git (Github)
-            - Redmine
+            - "Web Developer: PHP Yii Framework, Apache, MySQL, HTML, CSS, JavaScript"
+            - "Systems technician: Ubuntu, Amazon EC2"
+            - Agile Development, Git, Github, Redmine
           -
             - "Reference: [Raúl Fernández Fraile](https://www.linkedin.com/in/rfraile)"
-            - "Project: [Koowall](http://www.koowall.com)"
+            - "Website: [koowall.com](http://www.koowall.com)"
+            - "Example: [koowall.com/life-s-pleasures](http://koowall.com/it-s-pleasures)"
+            - "Videos: [https://vimeo.com/37125476](https://vimeo.com/37125476)"
+            - "[Vivocom Portfolio](http://www.vivocom.eu/portfolio_page/koowall/)"
 
 
-  - place: "[InDaHouseRulez](http://indahouserulez.com/)"
+  - place: InDaHouseRulez | indahouserulez.com
     location: Madrid, Spain
     items:
       - title: Software Developer
-        dates: June 2009 -- April 2011
+        dates: June 2009 – April 2011
         details:
           -
-            - "Web analyst & developer: Python (Django), PHP (Symfony and Yii), MySQL"
-            - "Systems technician: Web Servers (Cherokee and Apache), Linux, Mail Server (Postfix)"
-            - Subversion
+            - Web development
+            - Usitility _free/share/trialware_ | usitility.com
+            - Regalo Mascotas _pet adoption_ | regalomascotas.com
+            - Que Vicio _flash videogames_ | quevicio.com
+            - Multilingual
+            - Advertising revenues
+            - Always migrating to cutting-edge free software
+          -
+            - Web analyst & developer
+            - Python (Django)
+            - PHP (Symfony, Yii, Wordpress)
+            - MySQL
+          -
+            - Systems technician
+            - Web Servers (Cherokee, Apache)
+            - Mail Server (Postfix)
+            - Linux
+          -
+            - Agile Development
             - ActiveCollab
+            - Subversion
             - Remote working
           -
             - "Reference: [Rubén Hernández](https://www.linkedin.com/in/rubenhernandeza), [recommendation on Linked-in](https://www.linkedin.com/in/jorgebaratagonzalez/en#recommendations)"
 
 
-  - place: "[Customer Service Center, Carlos III University of Madrid](http://cau.uc3m.es/)"
+  - title: Customer Service Center, Carlos III University of Madrid | cau.uc3m.es
     location: Madrid, Spain
     items:
       - title: Computer Technician
-        dates: September 2008 -- June 2009
+        dates: September 2008 – June 2009
         details:
-          - Computer support (Windows, Mac OS)
-          - Customer service
+          - Technical support of the Carlos III University of Madrid, providing assistance to staff and students
+          - Maintenance of computers (hardware and sofware), printers, networks, etc.
+          - Mainly Windows systems, but also Mac OS
+          - Problems resolved remotely or locally
 
 skills:
   - title: Preference
-    details: Ubuntu/Debian, NetBeans/Eclipse, Python/ES6/PHP, Git/Subversion
+    details:
+      - Ubuntu, Debian
+      - NetBeans, Eclipse
+      - Python, ES6, PHP
+      - Git
 
   - title: Working Knowledge
     details:
-      - UML, OOP, MVC, Continuous Integration, Agile development
-      - PHP, Java, Python, Node.js, JavaScript, CoffeeScript, HTML
-      - Yii, Symfony, Django
-      - MySQL, MongoDB
-      - Apache
-      - REST
-      - NetBeans, Eclipse
-      - Linux (Debian, Ubuntu)
-      - Git
-      - PHP/MySQL optimization
+      _Web Applications_: ~
+      Software Architecting: [ Open-source based, IaaS/PaaS ]
+      Software Engineering: [ UML, OOP, MVC ]
+      Continuous Integration: [ Git, Github, Travis CI ]
+      Agile Development: [ Kanban, Scrum, Pomodoro, Redmine ]
+      Software Development: [ PHP, Java, Python, ES5 (Node.js, JavaScript), CoffeeScript, NetBeans, Eclipse ]
+      Web Frameworks: [ Yii, Symfony, Django, Flask, Jekyll ]
+      JavaScript Frameworks: [ Ember.js, ExtJS, jQuery ]
+      UX/UI: [ HTML5, CSS, SASS, Twitter Bootstrap ]
+      Database Engineering: [ Entity-relationship modeling, MySQL Workbench, MongoDB ]
+      Software Quality Auditing: [ Reliability, Efficiency, Security, Scalability ]
+      Server-side Optimization: [ PHP/MySQL/MongoDB, Profiling/Benchmarking, xdebug, ab, siege ]
+      Functional Testing: [ PHPUnit, Selenium ]
+      Web API Design: [ REST, OAuth, Swagger ]
+      Build Automation: [ Make, Grunt.js, Rake, Ruby, Python ]
+      Linux System Administration: [ Debian/Ubuntu, Bash/ZSH, Apache, MySQL, hardening, Vim ]
 
   - title: Basic Knowledge
     details:
-      - Test Driven Development, Reactive programming
-      - Ruby, Rails, Ember.js, CSS, C, .NET, Erlang
-      - Drupal, Redmine, Chamilo, Wordpress
-      - SQLite, PostgreSQL, Oracle, Redis
-      - Nginx
-      - WSDL, SOAP
-      - WebSockets, XMPP, AMQP, RabbitMq, Celery, Amazon SQS
-      - Subversion
-      - VirtualBox, Amazon EC2, Heroku
-      - Metasploit
-      - Windows, Mac OS
-      - Vim
+      Test/Behavior Driven Development: [ PHPUnit, Vows ]
+      CMS Development: [ Rails, Redmine, Drupal, Wordpress, Chamilo, Moodle ]
+      Web API consuming: [ WSDL, SOAP ]
+      Cloud Computing: [ VirtualBox, Amazon AWS, Heroku, Microsoft Azure, scalability ]
+      Message-oriented middleware, Message Queuing: [ XMPP, Web Sockets, Socket.IO, AMQP, RabbitMq, Celery, Amazon SQS ]
+      Concurrent Computing: [ threading, background jobs, workers ]
+      Reactive Programming: [ Akka ]
+      Android Development: [ Titanium SDK ]
+      Machine Learning and Data Analysis: [ Numpy, Scipy, Scikit-learn, Pandas ]
+      Pentesting: [ Metasploit ]
+      Embebbed Systems: [ OpenWrt ]
+      ~: LaTeX, Gimp
 
   - title: Languages
     details:
@@ -150,30 +211,10 @@ skills:
 projects:
   jorgebg.com:
     title: "[Personal Website](http://jorgebg.com)"
-
-  github:
-    title: "[GitHub Portfolio](http://github.com/jorgebg)"
     details:
-      - Hosts extensions for Yii and Redmine developed by him, code samples, and patches for other open source projects.
-      - "Yii training slides: [Padawan](http://jorgebg.github.io/yii-slides/padawan.html), [Jedi](http://jorgebg.github.io/yii-slides/jedi.html)"
-  stackoverflow:
-    title: "[StackOverflow Profile](http://stackoverflow.com/users/959819/jorge-b-g)"
-    details:
-      - 700+ reputation
-      - "Badges: 3 Popular questions, Notable Question, Nice Answer"
-  ajbid.org:
-    title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
-    details:
-      - It was the largest project as a freelancer
-      - Developed with [Yii](http://www.yiiframework.com/)
-      - Database migration from the old version
-  surpriz.es:
-    title: "[Surprizes](http://surpriz.es)"
-    details:
-      - "[_surpriz.es_](http://surpriz.es)"
-      - Online affiliation system for shops
-      - Integration with barcode scanner
-      - Developed with [Yii](http://www.yiiframework.com/)
+      - Updated list of projects
+      - Previously managed with [Redmine](http://projects.jorgebg.com) and [Gitolite](https://github.com/sitaramc/gitolite), currently they all are hosted on [Github](http://github.com)
+      - http://babel.jorgebg.com/
   nordicosenadopcion.com:
     title: "[Nórdicos en Adopción](http://nordicosenadopcion.com)"
     details:
@@ -186,8 +227,21 @@ projects:
       - "[_falaciaslogicas.com_](http://falaciaslogicas.com)"
       - Logical fallacies guide
       - Hosted on [GitHub Pages](https://pages.github.com).
-      - Developed with [Kekyll](http://jekyllrb.com).
-      - Adsense
+      - Developed with [Jekyll](http://jekyllrb.com).
+  ajbid.org:
+    title: "[Association of Retirees of the Inter-american Development Bank](http://ajbid.org)"
+    details:
+      - It was the largest project as a freelancer
+      - Developed with [Yii](http://www.yiiframework.com/)
+      - Database migration from the old version
+  surpriz.es:
+    title: "[Surprizes]()"
+    details:
+      - "[_surpriz.es_]()"
+      - Online affiliation system for shops
+      - Integration with barcode scanner
+      - Developed with [Yii](http://www.yiiframework.com/)
+      - Currently offline
   scada:
     title: "[SCADA Assembly line simulator](http://github.com/jorgebg/scada-ssii-uc3m)"
     details:
@@ -215,15 +269,30 @@ activities:
       - Particularly interested in dynamic programming, but also in *hackatons*
       - Participated in the "[T3chFest Programming Contest](https://techfest.uc3m.es/concursos/concurso-de-programacion/)" of 2013, 2014 and 2015. In [the last one](http://jorgebg.github.io/T3chFest-2015) I got a [rank of *12/69*, with *517/600* points](https://techfest.uc3m.es/files/uploads/2014/01/RankingConcursoProgramacion.pdf).
       - Participated in the "[Tuenti Challenge](https://contest.tuenti.net/)" of 2011, 2012, 2013, 2014
+
+  - title: "[GitHub](http://github.com/jorgebg)"
+    details:
+      - Hosts extensions for Yii and Redmine developed by him, code samples, and patches for other free software projects.
+      - ~15 serious projects
+      - 15+ experiments
+      -
+      - "Yii training slides: [Padawan](http://jorgebg.github.io/yii-slides/padawan.html), [Jedi](http://jorgebg.github.io/yii-slides/jedi.html)"
+
+  - title: "[StackOverflow](http://stackoverflow.com/users/959819/jorge-b-g)"
+    details:
+      - 700+ reputation
+      - "Badges: 3 Popular questions, Notable Question, Nice Answer"
+
   - title: Volunteering
     details:
-      - Medical Emergency Technician in [Civil Defense (Protección Civil)](http://www.proteccioncivil.org/) of [S.S. Reyes](http://www.ssreyes.org/es/portal.do?NM=2&IDM=51), Madrid (Spain), 2005 -- 2008
+      - Medical Emergency Technician in [Civil Defense (_Protección Civil_)](http://www.proteccioncivil.org/) of [S.S. Reyes](http://www.ssreyes.org/es/portal.do?NM=2&IDM=51), Madrid (Spain), 2005 – 2008
 
   - title: Sports
     details:
-      - Martial Arts, 2005 -- Present
+      - Martial Arts, 2005 – Present
+      - Fitness
 
   - title: Arts
     details:
-      - Started a rock music band, Madrid (Spain), 2004 -- 2006
+      - Started a rock music band, Madrid (Spain), 2004 – 2006
       - Won two poetry awards in S.S. Reyes, Madrid (Spain), 2007

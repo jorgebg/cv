@@ -13,8 +13,10 @@ class Generator {
   public $texFile = 'tex/cv.tex';
   public $cvFile = 'cv.yaml';
   public $privateCvFile = 'cv.private.yaml';
+  protected $parser;
 
   public function run() {
+    $this->parser  = new Parser();
     $data = $this->loadData();
     $tex = $this->render($data);
     file_put_contents($this->texFile, $tex);
@@ -34,11 +36,26 @@ class Generator {
       $data = array_merge($data, $privateData);
     }
 
-    $parser = new Parser();
-    array_walk_recursive($data, function(&$item, $key) use ($parser) { $item = $parser->parse($item); });
+    $data = $this->normalize($data);
     $data = $this->toObject($data);
 
     return $data;
+  }
+
+  protected function normalize($data) {
+    $ndata = array();
+    foreach ($data as $key => $value) {
+      $key = $this->parser->parse($key);
+      if (is_array($value)) {
+        $value = $this->normalize($value);
+      }
+      else {
+        $value = $this->parser->parse($value);
+      }
+
+      $ndata[$key] = $value;
+    }
+    return $ndata;
   }
 
   public function toObject($array) {
