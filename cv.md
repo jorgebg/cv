@@ -8,6 +8,7 @@ phone:    354 (0) 834 72 87 01
 mail:     contact@jorgebg.com
 github:   github.com/jorgebg
 linkedin: lnkdin.me/p/baratajorge
+stackoverflow: stackoverflow.com/u/959819
 home:     jorgebg.com
 
 preferences: Web Applications, Ubuntu/Debian, NetBeans/Eclipse, Python/ES6/PHP, Git, Linux
