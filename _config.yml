@@ -1,0 +1,10 @@
+exclude: [ vendor ]
+
+defaults:
+  -
+    values:
+      layout: default
+
+markdown: redcarpet
+redcarpet:
+  extensions: [ autolink ]

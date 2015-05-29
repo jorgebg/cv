@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jorge Barata | Curriculum Vitae</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Web Software Architect in Dublin">
+
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+
+  <style>
+    hr {
+      display: none;
+    }
+
+    body {
+      margin-bottom: 60px;
+    }
+
+    @media print {
+      header {
+        display: none !important;
+      }
+    }
+
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .btn-link {
+      color: #337ab7;
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+  <header class="navbar navbar-default">
+    <div class="container">
+      <a class="btn btn-danger navbar-btn navbar-left" href="Jorge%20Barata.pdf">
+        <span class="glyphicon glyphicon-download-alt"></span> PDF
+      </a>
+      <a class="btn btn-link navbar-btn navbar-left" href="http://{{page.home}}">
+        <span class="glyphicon glyphicon-home"></span>
+      </a>
+      <ul class="nav navbar-nav hidden-xs">
+        <li><a href="http://{{page.github}}">GitHub</a></li>
+        <li><a href="http://{{page.linkedin}}">LinkedIn</a></li>
+        <li><a href="http://{{page.stackoverflow}}">StackOverflow</a></li>
+      </ul>
+      <span class="navbar-text navbar-right small">
+        Last update on {{ site.time | date_to_long_string }}&nbsp;&nbsp;•&nbsp;&nbsp;Source code on <a href="http://github.com/jorgebg/cv">github.com/jorgebg/cv</a>
+      </span>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>
+            {{ page.fullname }}
+            <small>{{page.degree}}</small>
+          </h1>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <blockquote class="small">
+          {{page.birth}}&nbsp;&nbsp;◦&nbsp;&nbsp;{{page.address}}
+          <br/>
+          <a href="tel:{{page.phone}}">{{page.phone}}</a> ◦
+          <a href="mailto:{{page.mail}}">{{page.mail}}</a>
+          <br/>
+          <a href="http://{{page.home}}">{{page.home}}</a> ◦
+          <a href="http://{{page.github}}">{{page.github}}</a> ◦
+          <a href="http://{{page.linkedin}}">{{page.linkedin}}</a>
+          <br/> {{page.preferences}}
+        </blockquote>
+      </div>
+    </div>
+
+    {{ content }}
+
+  </div>
+
+</body>
+
+</html>
