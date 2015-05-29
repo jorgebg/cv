@@ -1,0 +1,209 @@
+\nonstopmode
+\errorcontextlines 10000
+
+% Lists {{{
+%\usepackage{mdwlist}
+\usepackage{enumitem}
+\def\labelitemi{}
+% }}}
+
+\usepackage[cm]{fullpage}
+\usepackage[protrusion]{microtype}
+\usepackage{environ}
+
+
+% Colors {{{
+\usepackage{xcolor}
+\definecolor{url}{HTML}{474F5E}
+\definecolor{alt}{HTML}{454545}
+% }}}
+
+% Footer {{{
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\pagenumbering{gobble}
+% }}}
+
+% Multiple columns {{{
+\usepackage[margin=2cm]{geometry}
+\usepackage{multicol}
+\setlength{\columnsep}{2em}
+% }}}
+
+% Fonts {{{
+\usepackage{fontawesome}
+% }}}
+
+% Links {{{
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	urlcolor=url,
+	pdftitle={Jorge Barata - Curriculum Vitae},
+}
+
+\newcommand\anchor[2]{\texttt{\href{#1}{#2}}}
+\newcommand\tel[1]{\anchor{tel:+#1}{\small+#1}}
+\newcommand\mailto[1]{\anchor{mailto:#1}{#1}}
+\newcommand\http[1]{\anchor{http://#1}{#1}}
+\newcommand\web[1]{{\ \scriptsize\color{url}\faicon{globe}} \http{#1}}
+
+% }}}
+
+
+
+% Header {{{
+
+\newcommand\makeheader{
+\noindent
+\begin{multicols}{2}
+\begin{flushleft}
+
+    {\huge\textbf{\fullname}}\quad{\emph{\birth}}
+    \medbreak
+    \textsc{\degree}
+    \medbreak
+    {\address}
+
+\end{flushleft}
+
+\nextcolumn
+
+\begin{flushright}
+	\small
+	\color{url}
+	\def\arraystretch{1.2}
+	\begin{tabular}{ c l }
+		\faicon{phone}        & \tel{\phone}    \\
+		\faicon{envelope-alt} & \mailto{\mail} \\
+		\faicon{github}       & \http{\github}   \\
+    \faicon{linkedin}     & \http{\linkedin}   \\
+		\faicon{globe}        & \http{\home}   \\
+	\end{tabular}
+\end{flushright}
+\end{multicols}
+
+\medbreak
+}
+
+% }}}
+
+% Footer {{{
+\newcommand\makefooter{
+	\thispagestyle{fancy}
+	\rfoot{}
+	\cfoot{\small{\color{alt} Last update on \today \quad \textnormal{|}\quad Source code on \web{\github/cv}}}
+	\lfoot{}
+}
+% }}}
+
+% Sections {{{
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\Large\scshape}
+{}{0em}
+{}
+[\titlerule]
+
+\titleformat{\subsection}
+{\large\scshape}
+{}{0em}
+{}
+
+\titleformat{\subsubsection}
+{\normalsize\bf}
+{}{0em}
+{}
+
+
+% Summary {{{
+\NewEnviron{summary_section}{
+\renewcommand{\abstractname}{Summary}
+\begin{abstract}
+\setlength{\parskip}{1em}
+\BODY
+\end{abstract}
+}
+% }}}
+
+
+% Experience {{{
+\NewEnviron{experience_section}{
+	\def\labelitemi{}
+	\titleformat{\subsection}[runin]{\large\scshape}{}{}{}[]
+
+  \section{Experience}
+
+	\refer{Please refer to his Linked-in profile to see the recommendations.}
+	\small\BODY
+}
+
+\NewEnviron{experience_subsection_quote}{
+	\hfill\small\BODY \\
+}
+% }}}
+
+% Education {{{
+\NewEnviron{education_section}{
+	\titleformat{\subsection}[runin]{\large\scshape}{}{}{}[]
+
+  \section{Education}
+
+	\small\BODY
+}
+
+\NewEnviron{education_subsection_quote}{
+	\small\BODY \\
+}
+% }}}
+
+% Skills {{{
+\NewEnviron{skills_section}{
+  \section{Skills}
+	\noindent{\small\textsc{preferences:}\enskip\scriptsize\preferences}
+	\begin{multicols}{2}
+	\setlength{\parindent}{0}
+	\setlength{\parskip}{0.105em}
+	\small\BODY
+	\vfill
+	\end{multicols}
+}
+
+% }}}
+
+% Projects {{{
+\NewEnviron{projects_section}{
+  \section{Projects}
+	\refer{Please refer to his GitHub profile or \web{\home} to see a more detailed list.}
+	\begin{multicols}{2}
+	\setlength{\parindent}{0}
+	\setlength{\parskip}{0.5em}
+	\small\BODY
+	\vfill
+	\end{multicols}
+}
+% }}}
+
+% Activities {{{
+\NewEnviron{activities_section}{
+  \section{Activities}
+	\small\BODY
+}
+\NewEnviron{activities_subsubsection_quote}{\noindent\quad\small\BODY}
+% }}}
+
+
+
+% Helpers {{{
+
+\NewEnviron{block}{
+	\begin{minipage}{\columnwidth}
+	\BODY
+	\end{minipage}
+}
+
+\newcommand\nextcolumn{\vfill\columnbreak}
+\newcommand\refer[1]{\noindent\small\emph{#1}}
+% }}}
