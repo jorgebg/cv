@@ -172,7 +172,7 @@ __Reactive Programming__: Akka.
 __Machine Learning and Data Analysis__: Numpy, Scipy, Scikit-learn, Pandas.
 
 
-__Pentesting__: Metasploit.
+__Pentesting__: Metasploit, Wireshark.
 
 
 Others: PyGTK, Google Apps, LaTeX, Gimp, Pomodoro, server hardening, Titanium SDK, OpenWrt.
