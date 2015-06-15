@@ -1,4 +1,4 @@
-#Jorge Barata | Curriculum Vitae 2
+#Jorge Barata | Curriculum Vitae
 
 Requires Python 3.4+
 
