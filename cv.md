@@ -142,7 +142,7 @@ __Web API Design__: REST, OAuth, Swagger.
 __Build Automation__: Make, Grunt.js, Chef.
 
 
-Others: Debian/Ubuntu, Bash/ZSH, Vim.
+Others: Debian/Ubuntu, Bash/ZSH, Vim, Regular expressions.
 
 ---
 
