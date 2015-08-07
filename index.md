@@ -27,6 +27,17 @@ Active __free and open-source software__ contributor.
 Experience
 ==========
 
+## Full Stack Software Engineer
+> July 2015 -- *today* ◦ *Udemy , Dublin*
+
+- Build scalable, testable and robust software systems to support a high traffic website.
+- Operate at all levels of the stack, with strong experience in a some areas.
+- Work in a fast paced agile environment with rapid iteration.
+- Be effective in a distributed team through strong communication.
+- http://udemy.com
+
+
+
 ## Chief Technology Officer
 > June 2014 -- November 2014 ◦ *Indievelopment, Dublin*
 
@@ -142,7 +153,7 @@ __Web API Design__: REST, OAuth, Swagger.
 __Build Automation__: Make, Grunt.js, Chef.
 
 
-Others: Debian/Ubuntu, Bash/ZSH, Vim.
+Others: Debian/Ubuntu, Bash/ZSH, Vim, Regular expressions.
 
 ---
 
