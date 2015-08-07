@@ -27,7 +27,7 @@ Active __free and open-source software__ contributor.
 Experience
 ==========
 
-## Full Stack Software Engineer
+## Full Stack Web Application Engineer
 > July 2015 -- *today* ◦ *Udemy , Dublin*
 
 - Build scalable, testable and robust software systems to support a high traffic website.
