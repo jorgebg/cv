@@ -276,7 +276,7 @@ Activities
 
 ## Open Source community
 - __Contributed to Django, Yii, FOSRestBundleSymfony__, along others
-- __StackOverflow__ 750+ reputation http://stackoverflow.com/u/959819
+- __StackOverflow__ 850+ reputation http://stackoverflow.com/u/959819
 
 
 ## Others
