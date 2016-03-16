@@ -4,7 +4,7 @@ birth:    November 1, 1987
 address:  Dublin 1, Co. Dublin, Ireland
 degree:   BSc. in Computer Science and Engineering
 
-phone:    354 (0) 834 72 87 01
+phone:    353 (0) 834 72 87 01
 mail:     contact@jorgebg.com
 github:   github.com/jorgebg
 linkedin: lnkdin.me/p/baratajorge
