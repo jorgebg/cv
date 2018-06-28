@@ -1,23 +1,23 @@
 ---
 fullname: Jorge Barata
 birth:    November 1, 1987
-address:  Dublin 1, Co. Dublin, Ireland
-degree:   BSc. in Computer Science and Engineering
+address:  Madrid, Spain
+degree:   BSc. in Computer Science and Engineering, MSc. in Distributed Systems
 
-phone:    353 (0) 834 72 87 01
+phone:    34 619 98 15 38
 mail:     contact@jorgebg.com
 github:   github.com/jorgebg
-linkedin: lnkdin.me/p/baratajorge
+linkedin: linkedin.com/in/baratajorge
 stackoverflow: stackoverflow.com/u/959819
 home:     jorgebg.com
 
-preferences: Web Applications, Ubuntu/Debian, NetBeans/Eclipse, Python/ES6/PHP, Git, Linux
+preferences: Full stack, Django, React, Git, GNU/Linux
 ---
 
 Summary
 ========
 
-More than five years of experience in __full stack web engineering__ mainly with *Python*, *PHP*, *JavaScript*, *Linux*, *SQL/NoSQL DBMSs* and *virtualization*.
+Senior Software Engineer, specialized in __full stack web engineering__ mainly with *Django*, *SQL*, *React*, *Celery*, *Elastic Search*, *virtualization*. Experience in __machine learning__ with *Scipy* and *scikit-learn* and __big data__ with *Spark*.
 
 Strong __software design__ skills, looking forward to developing a career as __Software Architect__, having gathered extensive knowledge in integrating a broad range of __cutting-edge technologies__.
 
@@ -27,8 +27,28 @@ Active __free and open-source software__ contributor.
 Experience
 ==========
 
-## Full Stack Web Application Engineer
-> July 2015 -- *today* ◦ *Udemy , Dublin*
+## Senior Software Engineer
+> March 2017 -- *today* ◦ *Udemy for Business , Dublin*
+
+- Focus on the students experience.
+- Build the taxonomy management system for the course collection.
+- Adopt Udemy marketplace search engine and develop new features (Elastic Search).
+- Code review, mentor other engineers.
+- Investigate possible technological improvements for the product.
+- http://udemy.com
+
+
+## Chief Technology Officer
+> November 2016 -- *today* ◦ *Cooperativa Social Los Mochuelos , Madrid*
+
+- Technology advisor for the different initiatives of the cooperative.
+- Development and maintenance of the _Reutiliza_ project.
+- System management and software development.
+- http://mochuelos.com http://reutilizabocema.com
+
+
+## Software Engineer
+> July 2015 -- March 2017 ◦ *Udemy for Business, Dublin*
 
 - Build scalable, testable and robust software systems to support a high traffic website.
 - Operate at all levels of the stack, with strong experience in a some areas.
@@ -49,14 +69,14 @@ Experience
 ## Full-Stack Web Architect
 > January 2013 -- June 2014 ◦ *Vivocom EU, Spain*
 
-- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and queying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Redesigned the JavaScript client application with CoffeeScript, CommonJS and bower. Also trained the team for those new technologies/paradigms.
+- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and queying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Redesigned the JavaScript client application with CoffeeScript, CommonJS and Bower. Also trained the team for those new technologies/paradigms.
 - Software design with ArgoUML, Continuous Integration with Git/Github, Agile development with Kanban/Scrum/Redmine
 - Server side performance optimization with PHPcache. Database query optimization of MySQL/MongoDB.
 - 100,000 registered users in its first year. Funded by the Spanish Ministry of Industry, Energy and Tourism as part of _Plan Avanza 2_ program. It was awarded the Prize for Most innovative business project by the _Inspirational Festival_ of 2013.
-- References: Raúl Fernández Fraile http://lnkdin.me/p/rfraile, Kublai Gómez Soto http://lnkdin.me/p/kublai
+- References: Raúl Fernández Fraile http://linkedin.com/in/rfraile, Kublai Gómez Soto http://linkedin.com/in/kublai
 - http://keepunto.com http://youtu.be/usjou9iFj7U http://planavanza.es http://inspirationalfestival.com
 
-## Senior Software Engineer
+## Software Engineer
 > September 2012 -- December 2012 ◦ *Vivocom EU, Spain*
 
 - Built a real time chat for the KeePunto website. Mostly worked alone and remotely, meeting up once a week. Integrated an Ejjaberd chat server with the current application architecture: the data model was hosted on Anekis servers and accessed through WSDL, and the web application was in KeePunto servers. Web client built with Ember.js and a XMPP js client.
@@ -70,7 +90,7 @@ Experience
 - Optimized the most heavy database queries, and the web client with PageSpeed and CloudFlare. Also improved the display algorithm that placed user-published photos, videos and texts into an horizontal wall.
 - Max peak reached with 12,500 unique visitors in one day.
 - Agile Development with Redmine and continuous integration with Git/Github.
-- Reference: Raúl Fernández Fraile http://lnkdin.me/p/rfraile
+- Reference: Raúl Fernández Fraile http://linkedin.com/in/rfraile
 - http://koowall.com http://vimeo.com/37125476
 
 
@@ -82,7 +102,7 @@ Experience
 - Django, Symfony, Yii, Wordpress, MySQL. Also helped as systems technician with web servers (Cherokee, Apache), mail server (Postfix) and Debian/BSD.
 - Agile Development with ActiveCollab, continuous integration with SVN
 - Recommendation: http://linkedin.com/in/baratajorge/en#recommendations
-- Reference: Rubén Hernández http://lnkdin.me/p/rubenhernandeza
+- Reference: Rubén Hernández http://linkedin.com/in/rubenhernandeza
 - Examples: http://indahouserulez.com http://usitility.com http://regalomascotas.com http://quevicio.com
 
 
@@ -96,10 +116,10 @@ Experience
 Education
 =========
 
-## B.Sc. Computer Science & Engineering
-> August 2007 -- present ◦ *Carlos III University of Madrid, Spain*
+## B.Sc. Computer Science & Engineering, M.Sc Distributed Systems
+> August 2007 -- August 2017 ◦ *Carlos III University of Madrid, Spain*
 
-- Specialty in Distributed Systems,  Bilingual (Spanish and English),  First class honours on Network Computing (2009), Currently developing the final project and dissertation.
+- Bilingual (Spanish and English),  First class honors on Network Computing (2009).
 
 
 
@@ -108,7 +128,7 @@ Skills
 
 ## Working Knowledge
 
-__S/W Development__: PHP, Java, Python, Node.js, JavaScript, NetBeans, Eclipse.
+__S/W Development__: Python, JavaScript, PHP, Java, Node.js, Atom, NetBeans, Eclipse.
 
 
 __S/W Architecting__: Open-source based, IaaS/PaaS.
@@ -123,10 +143,10 @@ __Continuous Integration__: Git, Github, Travis CI.
 __Agile Development__: Kanban, Scrum.
 
 
-__Web frameworks__: Yii, Symfony, Django, Flask, Jekyll.
+__Web frameworks__: Django, Yii, Symfony, Flask.
 
 
-__JS frameworks__: Ember.js, ExtJS, jQuery.
+__JS frameworks__: React, Angular.js, Ember.js, ExtJS, jQuery.
 
 
 __UX/UI__: HTML5, CSS, SASS, Twitter Bootstrap.
@@ -144,13 +164,13 @@ __Server-side Optimization__: PHP/MySQL/MongoDB, Profiling/Benchmarking, Caching
 __Client-side Optimization__: PageSpeed, CloudFlare, Amazon S3.
 
 
-__Functional Testing__: PHPUnit, Selenium.
+__Testing__: Unit testing, End-to-end testing, Selenium.
 
 
 __Web API Design__: REST, OAuth, Swagger.
 
 
-__Build Automation__: Make, Grunt.js, Chef.
+__Build Automation__: Make, Ansible, Grunt.js.
 
 
 Others: Debian/Ubuntu, Bash/ZSH, Vim, Regular expressions.
@@ -171,7 +191,7 @@ __Web API consuming__: WSDL, SOAP.
 __Cloud Computing__: VirtualBox, Amazon AWS, Linode, Heroku, Microsoft Azure, scalability.
 
 
-__Message-oriented middleware, Message Queuing__: XMPP, Web Sockets, Socket.IO, AMQP, RabbitMq, Celery, Amazon SQS.
+__Message-oriented middleware, Message Queuing__: , Web Sockets, Socket.IO, AMQP, RabbitMq, Celery, Amazon SQS.
 
 
 __Concurrent Computing__: multi-threading, background jobs, workers.
@@ -192,7 +212,7 @@ Others: PyGTK, Google Apps, LaTeX, Gimp, Pomodoro, server hardening, Titanium SD
 ## Languages
 
 __Spanish__: C2 native
-__English__: advanced B2
+__English__: B2 fluent
 
 
 Projects
@@ -269,19 +289,17 @@ http://nhm.github.io
 Activities
 ==========
 
+## Open Source community
+- Organizer of __Dublin Django User Group__
+- __Tech Talks__ https://github.com/jorgebg/talks/
+- __Contributed to Django, Yii, FOSRestBundleSymfony__, along others
+- __StackOverflow__ 1K+ reputation http://stackoverflow.com/u/959819
+
 ## Competitive Programming
 - __Dynamic programming and Hackatons__ like T3chFest and Tuenti Challenge
 - http://jorgebg.com/T3chFest-2015 http://jorgebg.com/tuenti-contest
 
-
-## Open Source community
-- __Contributed to Django, Yii, FOSRestBundleSymfony__, along others
-- __StackOverflow__ 750+ reputation http://stackoverflow.com/u/959819
-
-
 ## Others
+- __Animal Shelter__ webmaster, non-profit, web built with Drupal 7 (*2011 -- 2018, Spain*) http://nordicosenadopcion.com
 - __Medical Emergency Technician__, __Civil Defense__ volunteer (*2005 -- 2008, Spain*) http://proteccioncivil.org
-- __Animal Shelter__ webmaster, non-profit, web built with Drupal 7 (*2011 -- Present, Spain*) http://nordicosenadopcion.com
-- __Guitarrist__, started a rock music band (*2004 -- 2007, Spain* )
-- __Martial Arts__ (*2005 -- Present*)
-- __Poetry__, won two awards (*2007, Spain*)
+- __Music__, __Martial Arts__, __Poetry__
