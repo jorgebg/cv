@@ -123,8 +123,8 @@ Education
 
 ## Languages
 
-- __Spanish__: C2 native
-- __English__: B2 fluent
+- __Spanish__: native
+- __English__: fluent (4 years working in Ireland, B2)
 
 
 Other Experience
