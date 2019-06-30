@@ -17,7 +17,7 @@ class Document:
 
     self.context = {}
 
-    self.context['page'] = yaml.load(parts['frontmatter'])
+    self.context['page'] = yaml.load(parts['frontmatter'], Loader=yaml.FullLoader)
     self.body = jinja2.Template(parts['body']).render(**self.context)
 
   def parse(self, content):

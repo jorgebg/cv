@@ -1,8 +1,10 @@
-.PHONY: install freeze
+.vagrant: Vagrantfile
+	vagrant up
+	touch .vagrant
 
-install:
-	apt-get install xelatex xargs
-	cat apt-packages.txt | xargs apt-get install
-
-freeze:
-	cat ./build/tex/cv.fls | xargs dlocate --package-only | sort -u > apt-packages.txt
+build/html/cv.html build/tex/cv.pdf: .vagrant cv.md
+	vagrant rsync
+	vagrant ssh -- "cd /vagrant && python3 -m cv html pdf"
+	vagrant ssh-config > ssh-config
+	rsync -e "ssh -F ssh-config" -r vagrant@default:/vagrant/build/ ./build/
+	rm ssh-config

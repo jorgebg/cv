@@ -1,0 +1,12 @@
+xelatex
+latex-xcolor
+texlive-base
+texlive-fonts-extra
+texlive-fonts-recommended
+texlive-generic-recommended
+texlive-latex-base
+texlive-latex-extra
+texlive-latex-extra-doc
+texlive-latex-recommended
+texlive-xetex
+tipa
