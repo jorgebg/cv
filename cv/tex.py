@@ -159,7 +159,7 @@ class CVRenderer(Renderer):
   def hrule(self):
     return \
     r"""
-    \nextcolumn
+    \hrulefill
     """
 
   @_t
@@ -181,13 +181,13 @@ class CVRenderer(Renderer):
         rootenv = self.sections[0].env
         sectionenv = rootenv[:i] + ('sub' * (level - 1)) + rootenv[i:]
     else:
-        sectionenv = text.lower() + '_section'
+        sectionenv = text.lower().replace(' ', '_') + '_section'
 
     section = self.Section(sectionenv, text, level, raw)
     self.sections.append(section)
 
     beginenv = self.beginenv(section)
-    
+
     return "\n".join(endenv + beginenv)
 
 

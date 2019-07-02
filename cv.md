@@ -2,7 +2,7 @@
 fullname: Jorge Barata
 birth:    November 1, 1987
 address:  Madrid, Spain
-degree:   BSc. in Computer Science and Engineering, MSc. in Distributed Systems
+degree:   BSc. in Computer Engineering, MSc. in Distributed Systems
 
 phone:    34 619 98 15 38
 mail:     contact@jorgebg.com
@@ -122,7 +122,7 @@ Experience
 Education
 =========
 
-## B.Sc. Computer Science & Engineering, M.Sc Distributed Systems
+## B.Sc. Computer Engineering, M.Sc Distributed Systems
 > August 2007 -- August 2017 ◦ *Carlos III University of Madrid, Spain*
 
 - __Taxi Recommendation System for Big Data__: Final dissertation. It consisted of two parts:
@@ -138,11 +138,10 @@ Education
 - __English__: fluent (4 years working in Ireland, B2)
 
 
-Other Experience
-================
+---
 
 
-## FOSS community
+## Community
 
 - Organizer of __Madrid Django User Group__. https://www.meetup.com/MadridDjango/
 - Former organizer of __Dublin Django User Group__. https://www.meetup.com/django-dublin/
@@ -151,10 +150,8 @@ Other Experience
 - Hackathons. https://github.com/jorgebg/hackathons
 
 
-## Freelance
+## Other projects
 
 - Nórdicos en Adopción http://nordicosenadopcion.com:  Non-profit animal shelter. Built with __Drupal__ and __Shopify__. (*2011 -- 2018, Spain*)
-
 - AJBID http://ajbid.org: Association of Retirees of the Inter-american Development Bank. Built with __Yii__ & __MySQL__.
-
 - Surprizes http://surpriz.es: Online affiliation system. Built with __Yii 2__ & __MySQL__.
