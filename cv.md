@@ -17,9 +17,9 @@ preferences: Full Stack, Django, React, GNU/Linux, Data Science
 Summary
 ========
 
-Senior Software Engineer, specialized in __full stack web engineering__ mainly with *Django*, *SQL*, *React*, *Celery*, *Elastic Search*. Experience in __machine learning__ with *Scipy* and *scikit-learn* and __big data__ with *Spark*.
+Senior Software Engineer, specialized in __software engineering__ mainly with *Django*, *SQL*, *React*, *Celery*, *Elastic Search*. Experience in __machine learning__ with *Scipy* and *scikit-learn* and __big data__ with *Spark*.
 
-Strong __software design__ skills, looking forward to developing a career as __Software Architect__, having gathered extensive knowledge in integrating a broad range of __cutting-edge technologies__.
+Strong __software design__ skills, looking forward to developing a career as __Software Architect__, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
 Active __free and open-source software__ contributor and speaker.
 
@@ -27,41 +27,53 @@ Active __free and open-source software__ contributor and speaker.
 Experience
 ==========
 
-## Senior Software Engineer
-> July 2015 -- *today* ◦ *Udemy , Dublin*
 
+## Senior Software Engineer
+> September 2018 -- *today* ◦ *Eventbrite , Madrid*
+
+- Working on the migration of a monolith to a service oriented architecture as a Site Reliability Engineer.
+- https://eventbrite.com https://github.com/eventbrite/pysoa
+
+
+## Senior Software Engineer
+> July 2015 -- August 2018 ◦ *Udemy , Dublin*
 
 - Udemy for Business (UFB) team. Promoted to Senior in March 2017.
-- Worked in a fast paced agile environment with rapid iteration with Kanban/Trello.
-- Leaded the hierarchical taxonomy management system for the course collection.
-- Leaded the adoption of marketplace search system (replacing the UFB search system, which was simpler), working with a distributed team along different timezones.
-- Leaded the development of course lecture search in Elastic Search.
-- Leaded the UFB public API development.
-- Leaded UFB instrumentation with Datadog.
-- Migration to the new stack: from PHP to Django, and from Angular to React+MobX.
+- Most UFB's projects demanded work with distributed teams in three locations with distinct time zones.
+- Worked in a fast paced agile environment with Kanban/Trello.
+- Leaded the following projects:
+  - Hierarchical taxonomy management system for the course collection.
+  - Refactoring of the UFB's search system, moving from a dedicated implementation to a shared solution for the whole organization, which increased the team speed for developing experiments, new features, and the adoption from external developments.
+  - Development of a second layer of search for a course, returning also details of related lectures. It resulted on more search clicks, potentially driving more adoption.
+  - A RESTful public API, enabling customers integration to the platform.
+  - Instrumentalization to monitor the quality of the delivery, alarms that notified the team on fortuitous behaviours.
+- Development of a self-service system, to allow customers to create learning portals to small teams, accommodating a market that today represents an interesting share of the current business.
+- Migration to two new stacks:
+  - From a in-house PHP framework to Django. This improved the onboarding learning curve.
+  - From Angular 1 to React+MobX, which gave us more flexibility.
 - Development of data pipelines for UFB analytics in Amazon Redshift, Pinball, Python and ChartIO.
-- REST integration with 3rd party services like Sentry, Intercom, Slack, Marketo.
-- Backend stack: Django, Django Rest Framework, Celery, MySQL, Memcached, Redis, Elastic Search.
-- Frontend stack: React, MobX, Webpack, Babel, Karma.
-- Development environment: Docker, uWSGI, Fabric, Ansible, CentOS. Continuous Integration with Github and Jenkins.
+- 3rd party services integration: Intercom, Slack, Marketo, PingOne/PingFederate.
+- Technology stack:
+  - Backend: Django, Django Rest Framework, Celery, MySQL, Memcached, Redis, Elastic Search.
+  - Frontend: React, MobX, Webpack, Babel, Karma.
+  - Development: Docker, uWSGI, Fabric, Ansible, CentOS. Continuous Integration with Github and Jenkins.
 - http://udemy.com http://business.udemy.com
 
 
-## Chief Technology Officer
+## Co-founder & CTO
 > November 2016 -- *today* ◦ *Cooperativa Social Los Mochuelos , Madrid*
 
-- Co-founder of the cooperative.
-- Development and launched the _Reutiliza_ project, which has been growing since 2016. Built in Django and PostgreSQL with Full Text Search. Deployed in Debian.
-- Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress and server hardening.
+- Development and launch of the _Reutiliza_ project, which is our biggest product. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
+- Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress multi-site, DNS management, mailing, and server hardening.
 - http://mochuelos.com http://reutilizabocema.com
 
 
-## Chief Technology Officer
+## Co-founder & CTO
 > June 2014 -- November 2014 ◦ *Indievelopment, Dublin*
 
 - Co-founder of a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
 - Designed the software architecture for deployment on Microsoft Azure.
-- User requirements gathering of our target through interviews, web forms and social networks.
+- Requirements-gathering through interviews, web forms and social networks.
 - http://indievelopment.info http://launchbox.ie/companies/indievelopment https://www.f6s.com/indievelopment
 
 
@@ -89,7 +101,6 @@ Experience
 - http://koowall.com http://vimeo.com/37125476
 
 
-
 ## Software Analyst & Developer
 > June 2009 -- April 2011 ◦ *InDaHouseRulez, Spain*
 
@@ -115,8 +126,8 @@ Education
 > August 2007 -- August 2017 ◦ *Carlos III University of Madrid, Spain*
 
 - __Taxi Recommendation System for Big Data__: Final dissertation. It consisted of two parts:
-  - A data pipeline built in SciPy, scikit-learn, and Spark and deployed in the laboratory cluster.
-  - A web application with geospatial features built in Django and PostGIS.
+  - Data pipeline built in SciPy, scikit-learn, and Spark and deployed in the laboratory cluster.
+  - Web application with geospatial features built in Django and PostGIS.
 
 - https://github.com/jorgebg/taxi-recommendation-system
 
@@ -133,15 +144,16 @@ Other Experience
 
 ## FOSS community
 
-- Organizer of __Dublin Django User Group__. https://www.meetup.com/django-dublin/
-- Active speaker. https://github.com/jorgebg/talks/
+- Organizer of __Madrid Django User Group__. https://www.meetup.com/MadridDjango/
+- Former organizer of __Dublin Django User Group__. https://www.meetup.com/django-dublin/
+- Tech talks. https://github.com/jorgebg/talks/
 - Contributed to __Django__, __Yii__, __Symfony__, along others.
-- Participates on hackathons every year, and releases the code. https://github.com/jorgebg/gamecraft-2017
+- Hackathons. https://github.com/jorgebg/hackathons
 
 
 ## Freelance
 
-- Nórdicos en Adopción http://nordicosenadopcion.com:  Non-profit animal shelter. Built with __Drupal__ and __Shopify__. (*2011 -- today, Spain*)
+- Nórdicos en Adopción http://nordicosenadopcion.com:  Non-profit animal shelter. Built with __Drupal__ and __Shopify__. (*2011 -- 2018, Spain*)
 
 - AJBID http://ajbid.org: Association of Retirees of the Inter-american Development Bank. Built with __Yii__ & __MySQL__.
 
