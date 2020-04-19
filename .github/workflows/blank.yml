@@ -1,0 +1,17 @@
+name: Build HTML and PDF
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build HTML and PDF
+      run: |
+        apt-get install -y $(cat apt-packages.txt)
+        pip3 install -r requirements.txt
+        python3 -m cv html pdf
