@@ -10,9 +10,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Build HTML and PDF
+    - name: Install dependencies
       run: |
         sudo apt-get install -y $(cat apt-packages.txt)
         pip3 install setuptools
         pip3 install -r requirements.txt
-        python3 -m cv html pdf
+        
+    - name: Build GitHub Pages
+      run: |
+        git config --global user.email "cvbot@jorgebg.com"
+        git config --global user.name "CV Bot"
+        make gh-pages
+        git push origin gh-pages:gh-pages
