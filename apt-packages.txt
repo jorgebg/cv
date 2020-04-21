@@ -1,4 +1,5 @@
 texlive-base
+texlive-latex-recommended
 texlive-fonts-extra
 texlive-fonts-recommended
 texlive-generic-recommended
