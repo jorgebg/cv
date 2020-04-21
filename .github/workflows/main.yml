@@ -20,5 +20,15 @@ jobs:
       run: |
         git config --global user.email "cvbot@jorgebg.com"
         git config --global user.name "CV Bot"
-        make gh-pages
+
+        python3 -m cv pdf
+        mkdir -p .data
+        cp build/tex/cv.pdf ".data/Jorge Barata.pdf"
+        cp cv.md .data/index.md
+        git stash
+        git checkout gh-pages
+        mv .data/* .
+        git add "Jorge Barata.pdf" index.md
+        git commit -m"Automated update"
+        rmdir .data
         git push origin gh-pages:gh-pages
