@@ -1,5 +1,3 @@
-xelatex
-latex-xcolor
 texlive-base
 texlive-fonts-extra
 texlive-fonts-recommended
