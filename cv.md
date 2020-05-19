@@ -31,7 +31,11 @@ Experience
 ## Senior Software Engineer
 > September 2018 -- *today* ◦ *Eventbrite , Madrid*
 
-- Working on the migration of a monolith to a service oriented architecture as a Site Reliability Engineer.
+- Working on the migration of critical high-traffic services from the monolith to a service-oriented and event-driven architecture. This is bringing better autonomy to the teams, reducing blast radius of failure and increasing the reliability of the platform.
+- Infrastructure management and provisioning with the HashiCorp Stack (Consul, Nomad, Terraform) and AWS Cloudformation. Instrumentalization and monitoring with Datadog and Sentry.
+- Development with Django, ReactJS, and Django REST Framework, PySOA, MySQL, Redis, Kafka.
+
+
 - https://eventbrite.com https://github.com/eventbrite/pysoa
 
 
