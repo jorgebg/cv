@@ -2,7 +2,7 @@ texlive-base
 texlive-latex-recommended
 texlive-fonts-extra
 texlive-fonts-recommended
-texlive-generic-recommended
+texlive-plain-generic
 texlive-latex-base
 texlive-latex-extra
 texlive-latex-extra-doc
