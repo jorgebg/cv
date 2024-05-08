@@ -1,6 +1,5 @@
 ---
 fullname: Jorge Barata
-birth: November 1, 1987
 address: Madrid, Spain
 degree: BSc. in Computer Engineering, MSc. in Distributed Systems
 
@@ -75,7 +74,7 @@ Active **free and open-source software** contributor and speaker.
 
 > November 2016 -- _today_ ◦ _Cooperativa Social Los Mochuelos , Madrid_
 
-- Lead the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
+- Leaded the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
 - Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress multi-site, infrastructure, networking, and office suite.
 - http://mochuelos.com http://reutilizabocema.com
 
