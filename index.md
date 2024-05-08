@@ -36,7 +36,7 @@ Active **free and open-source software** contributor and speaker.
   - Joined some time the SRE team for helping the migration for in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
   - Migrated features of the monolit to SOA services in Django+PySOA, facilitating independent development and scalability.
   - Django training for the teams in Spain, empowering engineers with expertise and improving the onboarding, as most of our services were built in Django.
-- By conducting over a hundred interviews and delivering talks in tech events, I played a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
+- Conducted over a hundred interviews and delivered many talks in tech events, playing a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
 - Founded and organized the Django Madrid User Group, and Eventbrite sponsored the meetups. This brought more candidates to the hiring pipeline.
 - Stack:
   - Backend: Django, Django REST Framework, Celery, MySQL, Redis, Elastic Search, PySOA, RabbitMQ, Kafka.
