@@ -11,12 +11,12 @@ linkedin: linkedin.com/in/baratajorge
 stackoverflow: stackoverflow.com/u/959819
 home: jorgebg.com
 
-preferences: Full Stack, Django, React, GNU/Linux, Machine Learning
+preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 ---
 
 # Summary
 
-Senior Software Engineer, specialized in **software engineering** mainly with _Django_, _SQL_, _React_, _Celery_, _Elastic Search_. Experience in **machine learning** with _Scipy_ and _scikit-learn_ and **big data** with _Spark_.
+Senior Software Engineer, specialized in **software engineering** mainly with _Django_, _SQL_, _React_, and _AWS_. Experience in **reliability** following _SRE_ principles, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
 Strong **software design** skills, looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
@@ -31,11 +31,14 @@ Active **free and open-source software** contributor and speaker.
 - Eventbrite is the market leader for live event ticketing globally. The platform handles hundreds of thousands of requests during the on-sales.
 - Worked in a fast paced agile environment with distributed teams in different locations and time zones.
 - Leaded the following projects:
-  - Migration of a Django+PySOA service to a Kotlin+gRPC service. This resolved existing performance bottlenecks and streamlined the communication across the services in our SOA model.
+  - Migration of a Django+PySOA service to a Kotlin+gRPC service. Zero downtime using traffic shadowing and incremental rollout. This resolved existing performance bottlenecks and streamlined the communication across the services in our SOA model.
   - Migration of a Redis-backed Django service to ElastiCache, reducing operational overhead and enhancing reliability and scalability.
-  - Joined some time the SRE team for helping the migration for in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
-  - Migrated features of the monolit to SOA services in Django+PySOA, facilitating independent development and scalability.
+  - Migration of parts of the monolith to SOA services in Django+PySOA, facilitating independent development and scalability.
   - Django training for the teams in Spain, empowering engineers with expertise and improving the onboarding, as most of our services were built in Django.
+- Added new features to the event listing page and ticket order page, which improved the sales funnel.
+- Joined the SRE team for some time, where I worked on the following projects:
+  - Migration from in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
+  - Helped the teams to set up Datadog dashboards, monitoring alerts, SLAs and error budgets, which allowed them to measure performance and improve the reliability.
 - Conducted over a hundred interviews and delivered many talks in tech events, playing a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
 - Founded and organized the Django Madrid User Group, and Eventbrite sponsored the meetups. This brought more candidates to the hiring pipeline.
 - Stack:
