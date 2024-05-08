@@ -1,88 +1,93 @@
 ---
 fullname: Jorge Barata
-birth:    November 1, 1987
-address:  Madrid, Spain
-degree:   BSc. in Computer Engineering, MSc. in Distributed Systems
+birth: November 1, 1987
+address: Madrid, Spain
+degree: BSc. in Computer Engineering, MSc. in Distributed Systems
 
-phone:    34 619 98 15 38
-mail:     contact@jorgebg.com
-github:   github.com/jorgebg
+phone: 34 619 98 15 38
+mail: contact@jorgebg.com
+github: github.com/jorgebg
 linkedin: linkedin.com/in/baratajorge
 stackoverflow: stackoverflow.com/u/959819
-home:     jorgebg.com
+home: jorgebg.com
 
-preferences: Full Stack, Django, React, GNU/Linux, Data Science
+preferences: Full Stack, Django, React, GNU/Linux, Machine Learning
 ---
 
-Summary
-========
+# Summary
 
-Senior Software Engineer, specialized in __software engineering__ mainly with *Django*, *SQL*, *React*, *Celery*, *Elastic Search*. Experience in __machine learning__ with *Scipy* and *scikit-learn* and __big data__ with *Spark*.
+Senior Software Engineer, specialized in **software engineering** mainly with _Django_, _SQL_, _React_, _Celery_, _Elastic Search_. Experience in **machine learning** with _Scipy_ and _scikit-learn_ and **big data** with _Spark_.
 
-Strong __software design__ skills, looking forward to developing a career as __Software Architect__, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
+Strong **software design** skills, looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
-Active __free and open-source software__ contributor and speaker.
+Active **free and open-source software** contributor and speaker.
 
-
-Experience
-==========
-
+# Experience
 
 ## Senior Software Engineer
-> September 2018 -- December 2022 ◦ *Eventbrite , Madrid*
 
-- Working on the migration of critical high-traffic services from the monolith to a service-oriented and event-driven architecture. This is bringing better autonomy to the teams, reducing blast radius of failure and increasing the reliability of the platform.
-- Infrastructure management and provisioning with the HashiCorp Stack (Consul, Nomad, Terraform) and AWS Cloudformation. Instrumentalization and monitoring with Datadog and Sentry.
-- Development with Django, ReactJS, and Django REST Framework, PySOA, MySQL, Redis, Kafka.
+> September 2018 -- December 2022 ◦ _Eventbrite , Madrid_
 
-
+- Eventbrite is the market leader for live event ticketing globally. The platform handles hundreds of thousands of requests during the on-sales.
+- Worked in a fast paced agile environment with distributed teams in different locations and time zones.
+- Leaded the following projects:
+  - Migration of a Django+PySOA service to a Kotlin+gRPC service. This resolved existing performance bottlenecks and streamlined the communication across the services in our SOA model.
+  - Migration of a Redis-backed Django service to ElastiCache, reducing operational overhead and enhancing reliability and scalability.
+  - Joined some time the SRE team for helping the migration for in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
+  - Migrated features of the monolit to SOA services in Django+PySOA, facilitating independent development and scalability.
+  - Django training for the teams in Spain, empowering engineers with expertise and improving the onboarding, as most of our services were built in Django.
+- By conducting over a hundred interviews and delivering talks in tech events, I played a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
+- Founded and organized the Django Madrid User Group, and Eventbrite sponsored the meetups. This brought more candidates to the hiring pipeline.
+- Stack:
+  - Backend: Django, Django REST Framework, Celery, MySQL, Redis, Elastic Search, PySOA, RabbitMQ, Kafka.
+  - Frontend: React, TypeScript.
+  - Infrastructure: Docker, uWSGI, HashiCorp (Consul, Nomad, Terraform), AWS (Fargate, DynamoDB, ElastiCache, CloudFormation), NGINX, HAProxy, Ubuntu, GitHub, Datadog, Sentry.
 - https://eventbrite.com https://github.com/eventbrite/pysoa
 
-
 ## Senior Software Engineer
-> July 2015 -- August 2018 ◦ *Udemy , Dublin*
 
-- Udemy for Business (UFB) team. Promoted to Senior in March 2017.
-- Most UFB's projects demanded work with distributed teams in three locations with distinct time zones.
-- Worked in a fast paced agile environment with Kanban/Trello.
+> July 2015 -- August 2018 ◦ _Udemy , Dublin_
+
+- Udemy for Business (UFB) team. We created a platform with 20k+ courses offering on-demand, immersive, and cohort-based learning for businesses.
+- Worked in a fast paced agile environment with distributed teams in different locations and time zones.
 - Leaded the following projects:
-  - Hierarchical taxonomy management system for the course collection.
-  - Refactoring of the UFB's search system, moving from a dedicated implementation to a shared solution for the whole organization, which increased the team speed for developing experiments, new features, and the adoption from external developments.
-  - Development of a second layer of search for a course, returning also details of related lectures. It resulted on more search clicks, potentially driving more adoption.
+  - Hierarchical taxonomy management system for the course collection. It allowed the customers to organize the courses and increased adoption.
+  - Refactoring of the UFB's search system, moving from a dedicated implementation to a shared solution for the whole organization, which improved the team speed for developing experiments, new features, and the adoption from external developments.
+  - Enriched the course search by adding related lectures, which resulted on more search clicks and course consumption.
   - A RESTful public API, enabling customers integration to the platform.
   - Instrumentalization to monitor the quality of the delivery, alarms that notified the team on fortuitous behaviours.
-- Development of a self-service system, to allow customers to create learning portals to small teams, accommodating a market that today represents an interesting share of the current business.
-- Migration to two new stacks:
+- Developed a self-service system that allowed customers to create learning portals for small teams. This helped to acommodate a market that today represents an important share of the current business.
+- Migrated old code to new stacks:
   - From a in-house PHP framework to Django. This improved the onboarding learning curve.
   - From Angular 1 to React+MobX, which gave us more flexibility.
-- Development of data pipelines for UFB analytics in Amazon Redshift, Pinball, Python and ChartIO.
+- Developed data pipelines for UFB analytics in Amazon Redshift, Pinball, Python and ChartIO.
 - 3rd party services integration: Intercom, Slack, Marketo, PingOne/PingFederate.
-- Technology stack:
+- Stack:
   - Backend: Django, Django Rest Framework, Celery, MySQL, Memcached, Redis, Elastic Search.
   - Frontend: React, MobX, Webpack, Babel, Karma.
-  - Development: Docker, uWSGI, Fabric, Ansible, CentOS. Continuous Integration with Github and Jenkins.
+  - Infrastructure: Docker, uWSGI, Fabric, Ansible, CentOS, GitHub, Jenkins, Datadog.
 - http://udemy.com http://business.udemy.com
 
-
 ## Co-founder & CTO
-> November 2016 -- *today* ◦ *Cooperativa Social Los Mochuelos , Madrid*
 
-- Development and launch of the _Reutiliza_ project, which is our biggest product. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
-- Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress multi-site, DNS management, mailing, and server hardening.
+> November 2016 -- _today_ ◦ _Cooperativa Social Los Mochuelos , Madrid_
+
+- Lead the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
+- Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress multi-site, infrastructure, networking, and office suite.
 - http://mochuelos.com http://reutilizabocema.com
 
-
 ## Co-founder & CTO
-> June 2014 -- November 2014 ◦ *Indievelopment, Dublin*
+
+> June 2014 -- November 2014 ◦ _Indievelopment, Dublin_
 
 - Co-founder of a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
 - Designed the software architecture for deployment on Microsoft Azure.
 - Requirements-gathering through interviews, web forms and social networks.
 - http://indievelopment.info http://launchbox.ie/companies/indievelopment https://www.f6s.com/indievelopment
 
-
 ## Software Engineer
-> September 2012 -- June 2014 ◦ *Vivocom EU, Spain*
+
+> September 2012 -- June 2014 ◦ _Vivocom EU, Spain_
 
 - Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for those new technologies/paradigms.
 - Software design with ArgoUML, Continuous Integration with Github, Agile development with Kanban/Scrum/Redmine
@@ -92,9 +97,9 @@ Experience
 - References: Raúl Fernández Fraile http://linkedin.com/in/rfraile, Kublai Gómez Soto http://linkedin.com/in/kublai
 - http://keepunto.com http://youtu.be/usjou9iFj7U http://planavanza.es http://inspirationalfestival.com
 
-
 ## Junior Software Engineer
-> April 2011 -- January 2012 ◦ *Vivocom EU, Spain*
+
+> April 2011 -- January 2012 ◦ _Vivocom EU, Spain_
 
 - Migrated the old application to Yii Framework, and trained the team on this new framework.
 - Analyst programmer and Web Developer, mainly with PHP/MySQL stack and JavaScript. Also helping as systems technician with Apache, Ubuntu and Amazon EC2.
@@ -104,9 +109,9 @@ Experience
 - Reference: Raúl Fernández Fraile http://linkedin.com/in/rfraile
 - http://koowall.com http://vimeo.com/37125476
 
-
 ## Software Analyst & Developer
-> June 2009 -- April 2011 ◦ *InDaHouseRulez, Spain*
+
+> June 2009 -- April 2011 ◦ _InDaHouseRulez, Spain_
 
 - Developing frontends, customer facing and backend features, multilingual websites with advertising revenues.
 - Django, Symfony, Yii, Wordpress, MySQL. Also helped as systems technician with web servers (Cherokee, Apache), mail server (Postfix) and Debian/BSD.
@@ -115,47 +120,47 @@ Experience
 - Reference: Rubén Hernández http://linkedin.com/in/rubenhernandeza
 - http://indahouserulez.com http://usitility.com http://regalomascotas.com http://quevicio.com
 
-
 ## Computer Technician
-> September 2008 -- June 2009 ◦ *Carlos III University of Madrid, Spain*
 
-- Customer Service Center, technical support of the university, providing assistance to both staff and students.  Computer maintenance (hardware and software), printers, networks, etc.
+> September 2008 -- June 2009 ◦ _Carlos III University of Madrid, Spain_
+
+- Customer Service Center, technical support of the university, providing assistance to both staff and students. Computer maintenance (hardware and software), printers, networks, etc.
 - http://cau.uc3m.es
 
-
-Education
-=========
+# Education
 
 ## B.Sc. Computer Engineering, M.Sc Distributed Systems
-> August 2007 -- August 2017 ◦ *Carlos III University of Madrid, Spain*
 
-- __Taxi Recommendation System for Big Data__: Final dissertation. It consisted of two parts:
+> August 2007 -- August 2017 ◦ _Carlos III University of Madrid, Spain_
+
+- **Taxi Recommendation System for Big Data**: Final dissertation. It consisted of two parts:
+
   - Data pipeline built in SciPy, scikit-learn, and Spark and deployed in the laboratory cluster.
   - Web application with geospatial features built in Django and PostGIS.
 
 - https://github.com/jorgebg/taxi-recommendation-system
 
+## M.Sc Teacher Training
+
+> August 2023 -- July 2024 ◦ _Universidad Europea, Spain_
 
 ## Languages
 
-- __Spanish__: native
-- __English__: fluent (4 years working in Ireland, B2)
-
+- **Spanish**: native
+- **English**: fluent (4 years working in Ireland, C1)
 
 ---
 
-
 ## Community
 
-- Organizer of __Madrid Django User Group__. https://www.meetup.com/MadridDjango/
-- Former organizer of __Dublin Django User Group__. https://www.meetup.com/django-dublin/
+- Formar founder and organizer of **Madrid Django User Group**. https://www.meetup.com/MadridDjango/
+- Former founder and organizer of **Dublin Django User Group**. https://www.meetup.com/django-dublin/
 - Tech talks. https://github.com/jorgebg/talks/
-- Contributed to __Django__, __Yii__, __Symfony__, along others.
+- Contributed to OSS projects: **Django**, **Yii**, **Symfony**, along others.
 - Hackathons. https://github.com/jorgebg/hackathons
-
 
 ## Other projects
 
-- Nórdicos en Adopción http://nordicosenadopcion.com:  Non-profit animal shelter. Built with __Drupal__ and __Shopify__. (*2011 -- 2018, Spain*)
-- AJBID http://ajbid.org: Association of Retirees of the Inter-american Development Bank. Built with __Yii__ & __MySQL__.
-- Surprizes http://surpriz.es: Online affiliation system. Built with __Yii 2__ & __MySQL__.
+- Nórdicos en Adopción http://nordicosenadopcion.com: Non-profit animal shelter. Built with **Drupal** and **Shopify**. (_2011 -- 2018, Spain_)
+- AJBID http://ajbid.org: Association of Retirees of the Inter-american Development Bank. Built with **Yii** & **MySQL**.
+- Surprizes http://surpriz.es: Online affiliation system. Built with **Yii 2** & **MySQL**.
