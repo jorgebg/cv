@@ -161,9 +161,3 @@ Active **free and open-source software** contributor and speaker.
 - Tech talks. https://github.com/jorgebg/talks/
 - Contributed to OSS projects: **Django**, **Yii**, **Symfony**, along others.
 - Hackathons. https://github.com/jorgebg/hackathons
-
-## Other projects
-
-- Nórdicos en Adopción http://nordicosenadopcion.com: Non-profit animal shelter. Built with **Drupal** and **Shopify**. (_2011 -- 2018, Spain_)
-- AJBID http://ajbid.org: Association of Retirees of the Inter-american Development Bank. Built with **Yii** & **MySQL**.
-- Surprizes http://surpriz.es: Online affiliation system. Built with **Yii 2** & **MySQL**.
