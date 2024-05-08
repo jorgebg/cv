@@ -19,7 +19,6 @@ ESCAPE_CHARS = {
     '}':  r'\letterclosebrace{}',
     '~':  r'\lettertilde{}',
     '^':  r'\letterhat{}',
-    '\\': r'\letterbackslash{}',
 }
 
 def escape(text, quote=False, smart_amp=True):

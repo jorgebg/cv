@@ -10,10 +10,11 @@ gh-pages: build/tex/cv.pdf
 	mkdir -p .data
 	cp build/tex/cv.pdf ".data/Jorge Barata.pdf"
 	cp cv.md .data/index.md
+	cp cv.ext.md .data/extended.md
 	git stash
 	git checkout gh-pages
 	mv .data/* .
-	git add "Jorge Barata.pdf" index.md
+	git add "Jorge Barata.pdf" index.md extended.md
 	git commit -m"Automated update"
 	rmdir .data
 	git checkout master

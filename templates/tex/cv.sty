@@ -60,9 +60,9 @@
 \begin{multicols}{2}
 \begin{flushleft}
 
-    {\huge\textbf{\fullname}}\quad{\emph{\birth}}
+    {\huge\textbf{\fullname}}
     \medbreak
-    \textsc{\degree}
+    \textsc{\title}
     \medbreak
     {\address}
 
@@ -136,8 +136,12 @@
 
   \section{Experience}
 
-	\refer{Please refer to his Linked-in profile to see the recommendations.}
 	\small\BODY
+
+	\bigskip
+	{\centering
+	\refer{Please refer to my LinkedIn profile for previous work experience.}\par
+	}
 }
 
 \NewEnviron{experience_subsection_quote}{
@@ -147,6 +151,7 @@
 
 % Education {{{
 \NewEnviron{education_section}{
+	\def\labelitemi{}
 	\titleformat{\subsection}[runin]{\large\scshape}{}{}{}[]
 
   \section{Education}
@@ -155,7 +160,7 @@
 }
 
 \NewEnviron{education_subsection_quote}{
-	\small\BODY \\
+	\hfill\small\BODY \\
 }
 % }}}
 

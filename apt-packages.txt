@@ -6,6 +6,5 @@ texlive-plain-generic
 texlive-latex-base
 texlive-latex-extra
 texlive-latex-extra-doc
-texlive-latex-recommended
 texlive-xetex
 tipa
