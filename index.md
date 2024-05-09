@@ -97,7 +97,6 @@ Active **free and open-source software** contributor and speaker.
 - Server side performance optimization with PHPcache. Database query optimization of MySQL/MongoDB.
 - Built a real time chat for the website: Integrated an Ejjaberd chat server with a WSDL DaaS. Web client built in Ember.js.
 - 100,000 registered users in its first year. Funded by the Spanish Ministry of Industry, Energy and Tourism as part of _Plan Avanza 2_ program. It was awarded the Prize for Most innovative business project by the _Inspirational Festival_ of 2013.
-- References: Raúl Fernández Fraile http://linkedin.com/in/rfraile, Kublai Gómez Soto http://linkedin.com/in/kublai
 - http://keepunto.com http://youtu.be/usjou9iFj7U http://planavanza.es http://inspirationalfestival.com
 
 ## Junior Software Engineer
@@ -109,26 +108,7 @@ Active **free and open-source software** contributor and speaker.
 - Optimized the most heavy database queries, and the web client with PageSpeed and CloudFlare. Also improved the display algorithm that placed user-published photos, videos and texts into an horizontal wall.
 - Max peak reached with 12,500 unique visitors in one day.
 - Agile Development with Redmine and continuous integration with GitHub.
-- Reference: Raúl Fernández Fraile http://linkedin.com/in/rfraile
 - http://koowall.com http://vimeo.com/37125476
-
-## Software Analyst & Developer
-
-> June 2009 -- April 2011 ◦ _InDaHouseRulez, Spain_
-
-- Developing frontends, customer facing and backend features, multilingual websites with advertising revenues.
-- Django, Symfony, Yii, Wordpress, MySQL. Also helped as systems technician with web servers (Cherokee, Apache), mail server (Postfix) and Debian/BSD.
-- Agile Development with ActiveCollab, continuous integration with SVN
-- Recommendation: http://linkedin.com/in/baratajorge/en#recommendations
-- Reference: Rubén Hernández http://linkedin.com/in/rubenhernandeza
-- http://indahouserulez.com http://usitility.com http://regalomascotas.com http://quevicio.com
-
-## Computer Technician
-
-> September 2008 -- June 2009 ◦ _Carlos III University of Madrid, Spain_
-
-- Customer Service Center, technical support of the university, providing assistance to both staff and students. Computer maintenance (hardware and software), printers, networks, etc.
-- http://cau.uc3m.es
 
 # Education
 
