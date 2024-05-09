@@ -99,17 +99,6 @@ Active **free and open-source software** contributor and speaker.
 - 100,000 registered users in its first year. Funded by the Spanish Ministry of Industry, Energy and Tourism as part of _Plan Avanza 2_ program. It was awarded the Prize for Most innovative business project by the _Inspirational Festival_ of 2013.
 - http://keepunto.com http://youtu.be/usjou9iFj7U http://planavanza.es http://inspirationalfestival.com
 
-## Junior Software Engineer
-
-> April 2011 -- January 2012 ◦ _Vivocom EU, Spain_
-
-- Migrated the old application to Yii Framework, and trained the team on this new framework.
-- Analyst programmer and Web Developer, mainly with PHP/MySQL stack and JavaScript. Also helping as systems technician with Apache, Ubuntu and Amazon EC2.
-- Optimized the most heavy database queries, and the web client with PageSpeed and CloudFlare. Also improved the display algorithm that placed user-published photos, videos and texts into an horizontal wall.
-- Max peak reached with 12,500 unique visitors in one day.
-- Agile Development with Redmine and continuous integration with GitHub.
-- http://koowall.com http://vimeo.com/37125476
-
 # Education
 
 ## B.Sc. Computer Engineering, M.Sc Distributed Systems
