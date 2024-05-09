@@ -15,7 +15,7 @@ preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 
 # Summary
 
-Senior Software Engineer, specialized in **software engineering** mainly with _Django_, _SQL_, _React_, and _AWS_. Experience in **reliability** following _SRE_ principles, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
+**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. Expertise in _Python_, _Django_, and relational databases. Proficient in **site reliability engineering** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
 Strong **software design** skills, looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
