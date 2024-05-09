@@ -127,6 +127,6 @@ Active **free and open-source software** contributor and speaker.
 
 - Formar founder and organizer of **Madrid Django User Group**. https://www.meetup.com/MadridDjango/
 - Former founder and organizer of **Dublin Django User Group**. https://www.meetup.com/django-dublin/
-- Imparted the Django web framework course at the IE University.
+- Imparted a Django web framework course at the IE University.
 - Over a dozen of tech talks. https://jorgebg.com/talks/
 - Contributed to OSS projects: **Django**, **Yii**, **Symfony**, along others. https://github.com/jorgebg
