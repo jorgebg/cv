@@ -41,7 +41,7 @@ Active **free and open-source software** contributor and speaker.
 - Conducted over a hundred interviews and delivered many talks in tech events, playing a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
 - Founded and organized the Django Madrid User Group, and Eventbrite sponsored the meetups. This brought more candidates to the hiring pipeline.
 - Stack:
-  - Backend: Django, Django REST Framework, Celery, MySQL, Redis, Elastic Search, PySOA, RabbitMQ, Kafka.
+  - Backend: Django, Django REST Framework, Celery, MySQL, Redis, Elastic Search, PySOA, Varnish, RabbitMQ.
   - Frontend: React, TypeScript.
   - Infrastructure: Docker, uWSGI, HashiCorp (Consul, Nomad, Terraform), AWS (Fargate, DynamoDB, ElastiCache, CloudFormation), NGINX, HAProxy, Ubuntu, GitHub, Datadog, Sentry.
 - https://eventbrite.com https://github.com/eventbrite/pysoa
@@ -74,25 +74,23 @@ Active **free and open-source software** contributor and speaker.
 
 > November 2016 -- _today_ ◦ _Cooperativa Social Los Mochuelos , Madrid_
 
-- Co-founder of the cooperative.
-- Leaded the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL. Deployed on Debian with uWSGI, Nginx and Ansible.
-- Technology advisor for the different activities of the cooperative, as well as system management and software development. Wordpress multi-site, infrastructure, networking, and office suite.
+- Leaded the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL and deployed on Debian with uWSGI, Nginx and Ansible.
+- Technology advisor for all the projects of the cooperative, as well as system management and software development. Wordpress multi-site, infrastructure, networking, and office suite.
 - http://mochuelos.com http://reutilizabocema.com
 
 ## Co-founder & CTO
 
 > June 2014 -- November 2014 ◦ _Indievelopment, Dublin_
 
-- Co-founder of a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
-- Designed the software architecture for deployment on Microsoft Azure.
-- Requirements-gathering through interviews, web forms and social networks.
+- Indievelopment, a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
+- Designed a social media platform for gamers, deployable on Microsoft Azure.
 - http://indievelopment.info http://launchbox.ie/companies/indievelopment https://www.f6s.com/indievelopment
 
 ## Software Engineer
 
-> September 2012 -- June 2014 ◦ _Vivocom EU, Spain_
+> September 2012 -- June 2014 ◦ _Vivocom EU, Madrid_
 
-- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for those new technologies/paradigms.
+- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for these new technologies/paradigms.
 - Software design with ArgoUML, Continuous Integration with Github, Agile development with Kanban/Scrum/Redmine
 - Server side performance optimization with PHPcache. Database query optimization of MySQL/MongoDB.
 - Built a real time chat for the website: Integrated an Ejjaberd chat server with a WSDL DaaS. Web client built in Ember.js.
@@ -101,9 +99,9 @@ Active **free and open-source software** contributor and speaker.
 
 # Education
 
-## B.Sc. Computer Engineering, M.Sc Distributed Systems
+## B.Sc. Computer Engineering \\\ M.Sc Distributed Systems
 
-> August 2007 -- August 2017 ◦ _Carlos III University of Madrid, Spain_
+> August 2007 -- August 2017 ◦ _Universidad Carlos III de Madrid_
 
 - **Taxi Recommendation System for Big Data**: Final dissertation. It consisted of two parts:
 
@@ -114,7 +112,7 @@ Active **free and open-source software** contributor and speaker.
 
 ## M.Sc Teacher Training
 
-> August 2023 -- July 2024 ◦ _Universidad Europea, Spain_
+> August 2023 -- July 2024 ◦ _Universidad Europea, Madrid_
 
 ## Languages
 
