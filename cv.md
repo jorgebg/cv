@@ -83,7 +83,7 @@ Active **free and open-source software** contributor and speaker.
 > June 2014 -- November 2014 ◦ _Indievelopment, Dublin_
 
 - Indievelopment, a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
-- Designed a social media platform for gamers, deployable on Microsoft Azure.
+- Designed a crowdfunding platform for indie video games, deployable on Microsoft Azure.
 - http://indievelopment.info http://launchbox.ie/companies/indievelopment https://www.f6s.com/indievelopment
 
 ## Software Engineer
