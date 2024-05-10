@@ -1,7 +1,7 @@
 ---
 fullname: Jorge Barata
 address: Madrid, Spain
-degree: BSc. in Computer Engineering, MSc. in Distributed Systems
+title: Full Stack Software Engineer
 
 phone: 34 619 98 15 38
 mail: contact@jorgebg.com
@@ -15,7 +15,7 @@ preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 
 # Summary
 
-**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. Expertise in _Python_, _Django_, and relational databases. Proficient in **site reliability engineering** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
+**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. Expertise in **backend** development with _Python_, _Django_, and relational databases. Proficient in **site reliability** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
 Strong **software design** skills, looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
