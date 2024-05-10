@@ -99,7 +99,7 @@ Active **free and open-source software** contributor and speaker.
 
 # Education
 
-## B.Sc. Computer Engineering \\\ M.Sc Distributed Systems
+## B.Sc. Computer Engineering, \\\ M.Sc Distributed Systems
 
 > August 2007 -- August 2017 ◦ _Universidad Carlos III de Madrid_
 
