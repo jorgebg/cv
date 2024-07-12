@@ -33,7 +33,7 @@ Active **free and open-source software** contributor and speaker.
   - Migration of a Django+PySOA service to a Kotlin+gRPC service. Zero downtime using traffic shadowing and incremental rollout. This resolved existing performance bottlenecks and streamlined the communication across the services in our SOA model.
   - Migration of a Redis-backed Django service to ElastiCache, reducing operational overhead and enhancing reliability and scalability.
   - Migration of parts of the monolith to SOA services in Django+PySOA, facilitating independent development and scalability.
-  - Django training for the teams in Spain, empowering engineers with expertise and improving the onboarding, as most of our services were built in Django.
+  - Conducted Python and Django training sessions for engineering teams, enhancing the onboarding process by accelerating new hires' productivity and integration into projects, as most of our services were built in Django.
 - Added new features to the event listing page and ticket order page, which improved the sales funnel.
 - Joined the SRE team for some time, where I worked on the following projects:
   - Migration from in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
