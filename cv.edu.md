@@ -9,6 +9,7 @@ github: github.com/jorgebg
 linkedin: linkedin.com/in/baratajorge
 stackoverflow: stackoverflow.com/u/959819
 home: jorgebg.com/cv/edu
+pdffile: Jorge Barata - Education.pdf
 
 preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 ---
