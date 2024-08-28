@@ -14,12 +14,13 @@ ap = argparse.ArgumentParser('cv')
 ap.add_argument('formats', choices=formats, nargs='+',
                 metavar='format', help='{%s}' % ','.join(formats))
 ap.add_argument('--verbose', '-v', action='store_true')
+ap.add_argument('--source', '-s', default='cv.md')
 args = ap.parse_args()
 
 if args.verbose:
   logging.basicConfig(level=logging.DEBUG)
 
-doc = Document()
+doc = Document(args.source)
 for format in args.formats:
   logging.info('Building "%s"...' % format)
   builders[format].run(doc)

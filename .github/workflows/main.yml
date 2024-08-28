@@ -23,15 +23,18 @@ jobs:
         git config --global user.email "cvbot@jorgebg.com"
         git config --global user.name "CV Bot"
 
-        python3 -m cv pdf
         mkdir -p .data
+        python3 -m cv pdf --source=cv.md
         cp build/tex/cv.pdf ".data/Jorge Barata.pdf"
+        python3 -m cv pdf --source=cv.edu.md
+        cp build/tex/cv.pdf ".data/Jorge Barata - Education.pdf"
         cp cv.md .data/index.md
+        cp cv.edu.md .data/edu.md
         cp cv.ext.md .data/extended.md
         git stash
         git checkout gh-pages
         mv .data/* .
-        git add "Jorge Barata.pdf" index.md extended.md
+        git add "Jorge Barata.pdf" index.md edu.md extended.md
         git commit -m"Automated update"
         rmdir .data
         git push origin gh-pages:gh-pages
