@@ -34,7 +34,7 @@ jobs:
         git stash
         git checkout gh-pages
         mv .data/* .
-        git add "Jorge Barata.pdf" index.md edu.md extended.md
+        git add "Jorge Barata.pdf" "Jorge Barata - Education.pdf" index.md edu.md extended.md
         git commit -m"Automated update"
         rmdir .data
         git push origin gh-pages:gh-pages
