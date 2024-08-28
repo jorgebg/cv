@@ -8,18 +8,18 @@ mail: contact@jorgebg.com
 github: github.com/jorgebg
 linkedin: linkedin.com/in/baratajorge
 stackoverflow: stackoverflow.com/u/959819
-home: jorgebg.com
+home: jorgebg.com/cv/edu
 
 preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 ---
 
 # Summary
 
-**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. Expertise in **backend** development with _Python_, _Django_, and relational databases. Proficient in **site reliability** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
+**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. I am now looking to transition into a role as a **professional training teacher**. My goal is to leverage my technical expertise, industry experience, and passion for teaching to help others develop the skills needed for success in technology-driven environments.
 
-Strong **software design** skills: OOP, TDD, DDD, SOA, clean architecture. Looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
+Experienced in **backend** with _Python_, _Django_, _SQL_, _Ansible_, _Terraform_, _AWS_, **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
-Active **free and open-source software** contributor and speaker.
+Strong **software design** skills: OOP, TDD, DDD, SOA, clean architecture.
 
 # Experience
 
@@ -30,14 +30,14 @@ Active **free and open-source software** contributor and speaker.
 - Eventbrite is the market leader for live event ticketing globally. The platform handles hundreds of thousands of requests during the on-sales.
 - Worked in a fast paced agile environment with distributed teams in different locations and time zones.
 - Leaded the following projects:
+  - Django training for the teams in Spain, empowering engineers with expertise and improving the onboarding, as most of our services were built in Django.
   - Migration of a Django+PySOA service to a Kotlin+gRPC service. Zero downtime using traffic shadowing and incremental rollout. This resolved existing performance bottlenecks and streamlined the communication across the services in our SOA model.
   - Migration of a Redis-backed Django service to ElastiCache, reducing operational overhead and enhancing reliability and scalability.
   - Migration of parts of the monolith to SOA services in Django+PySOA, facilitating independent development and scalability.
-  - Conducted Python and Django training sessions for engineering teams, enhancing the onboarding process by accelerating new hires' productivity and integration into projects, as most of our services were built in Django.
 - Added new features to the event listing page and ticket order page, which improved the sales funnel.
 - Joined the SRE team for some time, where I worked on the following projects:
-  - Migration from in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
   - Trained the teams to set up Datadog dashboards, monitoring alerts, SLAs and error budgets, which allowed them to measure performance and improve the reliability.
+  - Migration from in-house infrastructure management system to Terraform and CloudFormation, enabling efficient provisioning and consistent configurations across environments.
 - Conducted over a hundred interviews and delivered many talks in tech events, playing a pivotal role in talent acquisition and knowledge dissemination, enriching our team with diverse talents and fostering industry connections.
 - Founded and organized the Django Madrid User Group, and Eventbrite sponsored the meetups. This brought more candidates to the hiring pipeline.
 - Stack:
@@ -45,6 +45,14 @@ Active **free and open-source software** contributor and speaker.
   - Frontend: React, TypeScript.
   - Infrastructure: Docker, uWSGI, HashiCorp (Consul, Nomad, Terraform), AWS (Fargate, DynamoDB, ElastiCache, CloudFormation), NGINX, HAProxy, Ubuntu, GitHub, Datadog, Sentry.
 - https://eventbrite.com https://github.com/eventbrite/pysoa
+
+## Professor
+
+> July 2020 ◦ _IE University , Madrid_
+
+- Developed and delivered a comprehensive course on the Django web framework, designed for undergraduate students in computer science and related disciplines.
+- Created and curated course materials, including lectures, hands-on coding exercises, and real-world project assignments, to provide students with practical experience in building web applications using Django.
+- Guided students through the fundamentals of Django, including models, views, templates, and the framework's ORM capabilities, ensuring a deep understanding of how to develop robust and scalable web applications.
 
 ## Senior Software Engineer
 
@@ -85,17 +93,6 @@ Active **free and open-source software** contributor and speaker.
 - Indievelopment, a LaunchBox 2015 startup (Trinity College's accelerator for student startups).
 - Designed a crowdfunding platform for indie video games, deployable on Microsoft Azure.
 - http://indievelopment.info http://launchbox.ie/companies/indievelopment https://www.f6s.com/indievelopment
-
-## Software Engineer
-
-> September 2012 -- June 2014 ◦ _Vivocom EU, Madrid_
-
-- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for these new technologies/paradigms.
-- Software design with ArgoUML, Continuous Integration with Github, Agile development with Kanban/Scrum/Redmine
-- Server side performance optimization with PHPcache. Database query optimization of MySQL/MongoDB.
-- Built a real time chat for the website: Integrated an Ejjaberd chat server with a WSDL DaaS. Web client built in Ember.js.
-- 100,000 registered users in its first year. Funded by the Spanish Ministry of Industry, Energy and Tourism as part of _Plan Avanza 2_ program. It was awarded the Prize for Most innovative business project by the _Inspirational Festival_ of 2013.
-- http://keepunto.com http://youtu.be/usjou9iFj7U http://planavanza.es http://inspirationalfestival.com
 
 # Education
 
