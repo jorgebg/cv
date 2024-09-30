@@ -113,7 +113,7 @@ Active **free and open-source software** contributor and speaker.
 
 ## M.Sc Teacher Training
 
-> August 2023 -- July 2024 ◦ _Universidad Europea, Madrid_
+> September 2023 -- October 2024 ◦ _Universidad Europea, Madrid_
 
 ## Languages
 
