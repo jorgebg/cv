@@ -81,7 +81,7 @@ Strong **software design** skills: OOP, TDD, DDD, SOA, clean architecture.
 
 ## Co-founder & CTO
 
-> November 2016 -- _today_ ◦ _Cooperativa Social Los Mochuelos , Madrid_
+> November 2016 -- September 2024 ◦ _Cooperativa Social Los Mochuelos , Madrid_
 
 - Leaded the development and launch of the _Reutiliza_ project, a place for exchange and reuse of items. Built in Django and PostgreSQL and deployed on Debian with uWSGI, Nginx and Ansible.
 - Technology advisor for all the projects of the cooperative, as well as system management and software development. Wordpress multi-site, infrastructure, networking, and office suite.
