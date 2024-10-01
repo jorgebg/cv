@@ -16,7 +16,7 @@ preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 
 # Summary
 
-**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. Expertise in **backend** development with _Python_, _Django_, and relational databases. Proficient in **site reliability** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
+**Software Engineer** with 15 years of experience, with extensive experience in **large-scale applications**. Expertise in **backend** development with _Python_, _Django_, and relational databases. Proficient in **site reliability** and **infrastructure** with _Ansible_, _Terraform_, _AWS_. Experienced in **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
 Strong **software design** skills: OOP, TDD, DDD, SOA, clean architecture. Looking forward to developing a career as **Software Architect**, having gathered extensive knowledge in integrating a broad range of state-of-the-art patterns and technologies.
 
