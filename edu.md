@@ -16,7 +16,7 @@ preferences: Full Stack, Django, React, Reliability, Machine Learning, GNU/Linux
 
 # Summary
 
-**Software Engineer** with 15 years of experience, specializing in **data-intensive applications** for the past 9 years. I am now looking to transition into a role as a **professional training teacher**. My goal is to leverage my technical expertise, industry experience, and passion for teaching to help others develop the skills needed for success in technology-driven environments.
+**Software Engineer** with 15 years of experience, with extensive experience in **large-scale applications**. I am now looking to transition into a role as a **professional training teacher**. My goal is to leverage my technical expertise, industry experience, and passion for teaching to help others develop the skills needed for success in technology-driven environments.
 
 Experienced in **backend** with _Python_, _Django_, _SQL_, _Ansible_, _Terraform_, _AWS_, **frontend** with _React_ and _TypeScript_, **machine learning** with _Scipy_ and _scikit-learn_, and **big data** with _Spark_.
 
