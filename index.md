@@ -91,7 +91,7 @@ Active **free and open-source software** contributor and speaker.
 
 > September 2012 -- June 2014 ◦ _Vivocom EU, Madrid_
 
-- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TTD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for these new technologies/paradigms.
+- Extended the web application architecture (Yii+MySQL) with MongoDB, caching, background workers and querying, automation tools (Grunt), TDD, code quality linter, web security pentesting. Leaded the frontend implementation with CoffeeScript, CommonJS and Bower. Also trained the team for these new technologies/paradigms.
 - Software design with ArgoUML, Continuous Integration with Github, Agile development with Kanban/Scrum/Redmine
 - Server side performance optimization with PHPcache. Database query optimization of MySQL/MongoDB.
 - Built a real time chat for the website: Integrated an Ejjaberd chat server with a WSDL DaaS. Web client built in Ember.js.
