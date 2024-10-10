@@ -71,7 +71,7 @@ Strong **software design** skills: OOP, TDD, DDD, SOA, clean architecture.
 - Migrated old code to new stacks:
   - From a in-house PHP framework to Django. This improved the onboarding learning curve.
   - From Angular 1 to React+MobX, which gave us more flexibility.
-- Developed data pipelines for UFB analytics in Amazon Redshift, Pinball, Python and ChartIO.
+- Developed data pipelines for UFB analytics in AWS Redshift, Pinball, Python and ChartIO.
 - 3rd party services integration: Intercom, Slack, Marketo, PingOne/PingFederate.
 - Stack:
   - Backend: Django, Django Rest Framework, Celery, MySQL, Memcached, Redis, Elastic Search.
